@@ -3,116 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stage NSI - 3 Jours</title>
+    <title>Stage NSI 3 Jours</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
-            line-height: 1.6;
-            background-color: #f4f4f9;
-            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
+
         header {
-            background: #0078d7;
-            color: #fff;
-            padding: 1em 0;
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            width: 100%;
             text-align: center;
         }
-        .container {
+
+        main {
             max-width: 800px;
-            margin: auto;
-            padding: 20px;
+            margin: 2em;
+            padding: 1em;
+            border: 1px solid #ccc;
+            border-radius: 8px;
         }
+
         section {
             margin-bottom: 2em;
-            padding: 1em;
-            background: #fff;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-        section h2 {
-            color: #0078d7;
+
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.3em;
         }
-        footer {
-            text-align: center;
-            padding: 1em 0;
-            background: #ddd;
-            color: #555;
-        }
+
         .contact {
             text-align: center;
         }
-        .contact a {
-            color: #0078d7;
-            text-decoration: none;
+
+        .contact input, .contact textarea, .contact button {
+            display: block;
+            margin: 0.5em auto;
+            padding: 0.5em;
+            width: 90%;
+            max-width: 400px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
         }
-        .contact a:hover {
-            text-decoration: underline;
+
+        .contact button {
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+        }
+
+        .contact button:hover {
+            background-color: #555;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Stage NSI - Programme de 3 Jours</h1>
-    </header>
 
-    <div class="container">
-        <section id="contenu-stage">
-            <h2>Contenu du Stage</h2>
-            <ul>
-                <li><strong>Jeudi matin :</strong> Révision de toutes les bases
-                    <ul>
-                        <li>Types de données</li>
-                        <li>Variables</li>
-                        <li>Conditions</li>
-                        <li>Listes</li>
-                        <li>Dictionnaires</li>
-                    </ul>
-                </li>
-                <li><strong>Jeudi après-midi :</strong> TP et mise en pratique
-                    <ul>
-                        <li>Exercices pratiques sur GitLab</li>
-                    </ul>
-                </li>
-                <li><strong>Vendredi matin :</strong> Exercices pratiques et introduction aux fonctions et classes POO</li>
-                <li><strong>Vendredi après-midi :</strong> Explication et commencement d'un projet en groupe</li>
-                <li><strong>Samedi matin :</strong> Exercices pratiques, travail sur le projet, questions et introduction à la récursivité</li>
-                <li><strong>Samedi après-midi :</strong> Projet, introduction au web et à Linux</li>
-            </ul>
-        </section>
+<header>
+    <h1>Stage NSI - 3 Jours</h1>
+</header>
 
-        <section id="cours">
-            <h2>Planning et Cours</h2>
-            <p><strong>Dates :</strong> Jeudi, Vendredi et Samedi</p>
-            <div>
-                <h3>Jeudi matin</h3>
-                <p>Révision de toutes les bases : types de données, variables, conditions, listes, dictionnaires.</p>
-                <h3>Jeudi après-midi</h3>
-                <p>TP et mise en pratique sur des exercices pratiques via GitLab.</p>
-                <h3>Vendredi matin</h3>
-                <p>Exercices pratiques et introduction aux fonctions et classes POO.</p>
-                <h3>Vendredi après-midi</h3>
-                <p>Explication et commencement d'un projet collaboratif.</p>
-                <h3>Samedi matin</h3>
-                <p>Exercices pratiques, travail sur le projet, questions et introduction à la récursivité.</p>
-                <h3>Samedi après-midi</h3>
-                <p>Projet, introduction au web et à Linux.</p>
-            </div>
-        </section>
+<main>
+    <section id="contenu">
+        <h2>Contenu du Stage</h2>
+        <ul>
+            <li><strong>Jeudi matin :</strong> Révision de toutes les bases : Types de données - Variables - Conditions - Listes - Dictionnaires</li>
+            <li><strong>Jeudi après-midi :</strong> TP et mise en pratique sur des exercices pratiques : exercices pratiques sur Gitlab</li>
+            <li><strong>Vendredi matin :</strong> Exercices pratiques et introduction aux fonctions et classes (POO)</li>
+            <li><strong>Vendredi après-midi :</strong> Explication du projet à faire et commencement du projet ensemble pour les élèves présents</li>
+            <li><strong>Samedi matin :</strong> Exercices pratiques, travail sur le projet avec des questions et introduction au concept de récursivité</li>
+            <li><strong>Samedi après-midi :</strong> Projet et introduction au web et à Linux</li>
+        </ul>
+    </section>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Pour toute question ou information supplémentaire, vous pouvez nous écrire à :</p>
-            <div class="contact">
-                <a href="mailto:info@nsi-stage.com">info@nsi-stage.com</a>
-            </div>
-            <p>Découvrez également mon portfolio ici : <a href="https://monportfolio.com" target="_blank">monportfolio.com</a></p>
-        </section>
-    </div>
+    <section id="cours">
+        <h2>Dates et Horaires</h2>
+        <ul>
+            <li><strong>Jeudi :</strong> 9h30 - 12h00 et 13h30 - 15h00</li>
+            <li><strong>Vendredi :</strong> 9h30 - 12h00 et 13h30 - 15h00</li>
+            <li><strong>Samedi :</strong> 9h30 - 12h00 et 13h30 - 15h00</li>
+        </ul>
+    </section>
 
-    <footer>
-        <p>&copy; 2024 Stage NSI. Tous droits réservés.</p>
-    </footer>
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Pour toute question ou inscription, veuillez remplir le formulaire ci-dessous :</p>
+        <form>
+            <input type="text" placeholder="Nom" required>
+            <input type="email" placeholder="Email" required>
+            <textarea rows="5" placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+</main>
+
 </body>
 </html>
