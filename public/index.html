@@ -3,141 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cours en ligne</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Stage NSI - 3 Jours</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #0078d7;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 2em;
+            padding: 1em;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            color: #0078d7;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background: #ddd;
+            color: #555;
+        }
+        .contact {
+            text-align: center;
+        }
+        .contact a {
+            color: #0078d7;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <nav>
-            <div class="logo">
-                <a href="#">Cours en ligne</a>
-            </div>
-            <div class="menu-toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul id="menu">
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Cours</a></li>
-                <li><a href="#">Évaluations</a></li>
-                <li><a href="#">Ressources</a></li>
-                <li><a href="#">Paramètres</a></li>
-            </ul>
-        </nav>
+        <h1>Stage NSI - Programme de 3 Jours</h1>
     </header>
 
-    <main>
-        <section class="dashboard">
-            <h1>Bienvenue dans votre espace de cours</h1>
+    <div class="container">
+        <section id="contenu-stage">
+            <h2>Contenu du Stage</h2>
+            <ul>
+                <li><strong>Jeudi matin :</strong> Révision de toutes les bases
+                    <ul>
+                        <li>Types de données</li>
+                        <li>Variables</li>
+                        <li>Conditions</li>
+                        <li>Listes</li>
+                        <li>Dictionnaires</li>
+                    </ul>
+                </li>
+                <li><strong>Jeudi après-midi :</strong> TP et mise en pratique
+                    <ul>
+                        <li>Exercices pratiques sur GitLab</li>
+                    </ul>
+                </li>
+                <li><strong>Vendredi matin :</strong> Exercices pratiques et introduction aux fonctions et classes POO</li>
+                <li><strong>Vendredi après-midi :</strong> Explication et commencement d'un projet en groupe</li>
+                <li><strong>Samedi matin :</strong> Exercices pratiques, travail sur le projet, questions et introduction à la récursivité</li>
+                <li><strong>Samedi après-midi :</strong> Projet, introduction au web et à Linux</li>
+            </ul>
+        </section>
 
-            <div class="categories">
-                <!-- Catégorie Programmation Web -->
-                <div class="category-card">
-                    <h2>Programmation Web</h2>
-                    <p>Explorez les différents niveaux du développement web, de débutant à expert.</p>
-                    <div class="card">
-                        <img src="images/logo-web.png" alt="Logo Débuter dans le dev web">
-                        <h3>Débuter dans le dev web</h3>
-                        <p>Nombre de cours : 5</p>
-                    </div>
-                    <div class="card">
-                        <img src="images/logo-web.png" alt="Logo Outils avancés du dev web">
-                        <h3>Découvrir les outils avancés du développement web</h3>
-                        <p>Nombre de cours : 4</p>
-                    </div>
-                    <div class="card">
-                        <img src="images/logo-web.png" alt="Logo Masteriser le dev web">
-                        <h3>Masteriser le développement web</h3>
-                        <p>Nombre de cours : 6</p>
-                    </div>
-                </div>
-
-                <!-- Catégorie Programmation -->
-                <div class="category-card">
-                    <h2>Programmation</h2>
-                    <p>Apprenez divers langages de programmation, de Python à Javascript.</p>
-                    <div class="card">
-                        <img src="images/logo-python.png" alt="Logo Python">
-                        <h3>Python</h3>
-                        <p>Nombre de cours : 8</p>
-                    </div>
-                    <div class="card">
-                        <img src="images/logo-c.png" alt="Logo C">
-                        <h3>C</h3>
-                        <p>Nombre de cours : 7</p>
-                    </div>
-                    <div class="card">
-                        <img src="images/logo-cpp.png" alt="Logo C++">
-                        <h3>C++</h3>
-                        <p>Nombre de cours : 6</p>
-                    </div>
-                    <div class="card">
-                        <img src="images/logo-csharp.png" alt="Logo C#">
-                        <h3>C#</h3>
-                        <p>Nombre de cours : 5</p>
-                    </div>
-                    <div class="card">
-                        <img src="images/logo-swift.png" alt="Logo Swift">
-                        <h3>Swift</h3>
-                        <p>Nombre de cours : 4</p>
-                    </div>
-                    <div class="card">
-                        <img src="images/logo-javascript.png" alt="Logo Javascript">
-                        <h3>Javascript</h3>
-                        <p>Nombre de cours : 7</p>
-                    </div>
-                    <div class="card">
-                        <img src="images/logo-bash.png" alt="Logo Bash">
-                        <h3>Bash</h3>
-                        <p>Nombre de cours : 3</p>
-                    </div>
-                </div>
-
-                <!-- Catégorie Environnement Informatique -->
-                <div class="category-card">
-                    <h2>Environnement Informatique</h2>
-                    <p>Apprenez les bases et l'administration des systèmes informatiques.</p>
-                    <div class="card">
-                        <img src="images/logo-enviro.png" alt="Logo Environnement Informatique">
-                        <h3>Introduction aux systèmes</h3>
-                        <p>Nombre de cours : 4</p>
-                    </div>
-                    <div class="card">
-                        <img src="images/logo-enviro.png" alt="Logo Réseaux et systèmes">
-                        <h3>Réseaux et Systèmes</h3>
-                        <p>Nombre de cours : 6</p>
-                    </div>
-                </div>
-
-                <!-- Catégorie Bureautique -->
-                <div class="category-card">
-                    <h2>Bureautique</h2>
-                    <p>Apprenez à maîtriser les outils bureautiques essentiels pour le travail de bureau.</p>
-                    <div class="card">
-                        <img src="images/logo-excel.png" alt="Logo Excel">
-                        <h3>Excel</h3>
-                        <p>Nombre de cours : 10</p>
-                    </div>
-                    <div class="card">
-                        <img src="images/logo-word.png" alt="Logo Word">
-                        <h3>Word</h3>
-                        <p>Nombre de cours : 8</p>
-                    </div>
-                    <div class="card">
-                        <img src="images/logo-powerpoint.png" alt="Logo PowerPoint">
-                        <h3>PowerPoint</h3>
-                        <p>Nombre de cours : 6</p>
-                    </div>
-                </div>
+        <section id="cours">
+            <h2>Planning et Cours</h2>
+            <p><strong>Dates :</strong> Jeudi, Vendredi et Samedi</p>
+            <div>
+                <h3>Jeudi matin</h3>
+                <p>Révision de toutes les bases : types de données, variables, conditions, listes, dictionnaires.</p>
+                <h3>Jeudi après-midi</h3>
+                <p>TP et mise en pratique sur des exercices pratiques via GitLab.</p>
+                <h3>Vendredi matin</h3>
+                <p>Exercices pratiques et introduction aux fonctions et classes POO.</p>
+                <h3>Vendredi après-midi</h3>
+                <p>Explication et commencement d'un projet collaboratif.</p>
+                <h3>Samedi matin</h3>
+                <p>Exercices pratiques, travail sur le projet, questions et introduction à la récursivité.</p>
+                <h3>Samedi après-midi</h3>
+                <p>Projet, introduction au web et à Linux.</p>
             </div>
         </section>
-    </main>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Pour toute question ou information supplémentaire, vous pouvez nous écrire à :</p>
+            <div class="contact">
+                <a href="mailto:info@nsi-stage.com">info@nsi-stage.com</a>
+            </div>
+            <p>Découvrez également mon portfolio ici : <a href="https://monportfolio.com" target="_blank">monportfolio.com</a></p>
+        </section>
+    </div>
 
     <footer>
-        <p>&copy; 2024 Cours en ligne. Tous droits réservés.</p>
+        <p>&copy; 2024 Stage NSI. Tous droits réservés.</p>
     </footer>
-
-    <script src="js/script.js"></script>
 </body>
 </html>
