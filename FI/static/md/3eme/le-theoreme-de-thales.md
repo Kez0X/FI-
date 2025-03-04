@@ -1,5 +1,7 @@
 # Le Théorème de Thalès 🔺
 
+$$ x = \frac{-b \pm \sqrt{b^2-4ac}}{2a} $$
+
 ## Introduction 🤔
 
 Le **théorème de Thalès** est un théorème fondamental en géométrie, souvent utilisé pour résoudre des problèmes de proportionnalité dans les triangles. Il permet de calculer des longueurs et de vérifier des relations entre des segments dans certaines situations géométriques.
@@ -18,9 +20,9 @@ En d'autres termes, si on a deux triangles qui partagent un côté commun et que
 
 Soit un triangle \( ABC \) et une droite parallèle à \( BC \) qui coupe les côtés \( AB \) et \( AC \) en \( D \) et \( E \) respectivement. Alors, on a la relation de proportionnalité :
 
-\[
+$$
 \frac{AD}{DB} = \frac{AE}{EC}
-\]
+$$
 
 Autrement dit, les rapports des longueurs des segments sur les côtés sont égaux.
 
@@ -40,21 +42,29 @@ Lorsque ces conditions sont remplies, le théorème de Thalès permet de calcule
 
 ### Exemple 1 : Application simple du théorème de Thalès
 
-Imaginons un triangle \( ABC \) avec \( AB = 6 \, \text{cm} \), \( AC = 8 \, \text{cm} \), et une droite parallèle à \( BC \) qui coupe \( AB \) en \( D \) et \( AC \) en \( E \). Les segments \( AD = 4 \, \text{cm} \) et \( AE = 5 \, \text{cm} \).
+Imaginons un triangle \( ABC \) avec \( AB = 6 \) cm, \( AC = 8 \) cm, et une droite parallèle à \( BC \) qui coupe \( AB \) en \( D \) et \( AC \) en \( E \). Les segments \( AD = 4 \) cm et \( AE = 5 \) cm.
 
 Pour déterminer \( DB \) et \( EC \), on applique le théorème de Thalès :
 
-\[
+$$
 \frac{AD}{DB} = \frac{AE}{EC}
-\]
+$$
 
-On connaît \( AD = 4 \, \text{cm} \), \( AE = 5 \, \text{cm} \), \( AB = 6 \, \text{cm} \), et \( AC = 8 \, \text{cm} \). Donc, il nous faut calculer les longueurs de \( DB \) et \( EC \).
+On connaît \( AD = 4 \) cm, \( AE = 5 \) cm, \( AB = 6 \) cm, et \( AC = 8 \) cm. Donc, il nous faut calculer les longueurs de \( DB \) et \( EC \).
 
 #### Calcul de \( DB \) :
-On sait que \( AB = AD + DB \), donc \( DB = AB - AD = 6 - 4 = 2 \, \text{cm} \).
+On sait que \( AB = AD + DB \), donc :
+
+$$
+DB = AB - AD = 6 - 4 = 2 \text{ cm}
+$$
 
 #### Calcul de \( EC \) :
-On sait que \( AC = AE + EC \), donc \( EC = AC - AE = 8 - 5 = 3 \, \text{cm} \).
+On sait que \( AC = AE + EC \), donc :
+
+$$
+EC = AC - AE = 8 - 5 = 3 \text{ cm}
+$$
 
 ### Conclusion :
 Les segments sont proportionnels, et on obtient les valeurs de \( DB \) et \( EC \). ✅
@@ -77,10 +87,6 @@ Imaginons que tu veuilles mesurer la hauteur d'un arbre, mais que tu ne peux pas
 
 En appliquant le théorème de Thalès avec les triangles formés par l'arbre et son ombre, et par toi et ton ombre, tu peux établir une proportionnalité pour trouver la hauteur de l'arbre.
 
-### 2. **Construction géométrique** 🏗️
-
-Le théorème de Thalès est aussi utilisé pour vérifier des constructions géométriques ou pour tracer des droites parallèles et des segments proportionnels dans des problèmes d’architecture, de design ou d’ingénierie.
-
 ---
 
 ## Exercices pour S'entraîner ✍️
@@ -88,10 +94,10 @@ Le théorème de Thalès est aussi utilisé pour vérifier des constructions gé
 ### Exercice 1 : Application du théorème de Thalès
 
 Dans un triangle \( ABC \), une droite parallèle à \( BC \) coupe \( AB \) en \( D \) et \( AC \) en \( E \). On sait que :
-- \( AB = 12 \, \text{cm} \),
-- \( AC = 16 \, \text{cm} \),
-- \( AD = 8 \, \text{cm} \),
-- \( AE = 10 \, \text{cm} \).
+- \( AB = 12 \) cm,
+- \( AC = 16 \) cm,
+- \( AD = 8 \) cm,
+- \( AE = 10 \) cm.
 
 Calcule les longueurs des segments \( DB \) et \( EC \).
 
@@ -101,7 +107,7 @@ Un arbre de 15 mètres de hauteur projette une ombre de 10 mètres. Une petite �
 
 ### Exercice 3 : Construction géométrique
 
-Dans un triangle \( ABC \), une droite parallèle à \( BC \) coupe \( AB \) en \( D \) et \( AC \) en \( E \). Sachant que \( AB = 14 \, \text{cm} \) et \( AC = 18 \, \text{cm} \), trace cette droite parallèle et vérifie la proportionnalité des segments.
+Dans un triangle \( ABC \), une droite parallèle à \( BC \) coupe \( AB \) en \( D \) et \( AC \) en \( E \). Sachant que \( AB = 14 \) cm et \( AC = 18 \) cm, trace cette droite parallèle et vérifie la proportionnalité des segments.
 
 ---
 

@@ -12,14 +12,14 @@ En d'autres termes, deux triangles sont similaires si l'un peut être obtenu par
 2. **Les côtés correspondants sont proportionnels.** Cela signifie que les rapports entre les longueurs des côtés de l'un et de l'autre sont égaux.
 
 Si deux triangles sont similaires, on peut écrire la relation suivante pour leurs côtés :
-
+$$
 \[
 \frac{a_1}{a_2} = \frac{b_1}{b_2} = \frac{c_1}{c_2}
 \]
-
+$$
 Où :
-- \( a_1 \), \( b_1 \), \( c_1 \) sont les côtés du premier triangle,
-- \( a_2 \), \( b_2 \), \( c_2 \) sont les côtés du deuxième triangle.
+- $$\( a_1 \), \( b_1 \), \( c_1 \)$$ sont les côtés du premier triangle,
+- $$\( a_2 \), \( b_2 \), \( c_2 \)$$ sont les côtés du deuxième triangle.
 
 ---
 
@@ -32,7 +32,7 @@ Pour déterminer si deux triangles sont similaires, il existe trois critères pr
 Si deux triangles ont **les trois angles** correspondants égaux, alors ces triangles sont similaires.
 
 #### Exemple :
-Si dans un triangle ABC, \( \angle A = \angle A' \), \( \angle B = \angle B' \), et \( \angle C = \angle C' \) dans un triangle A'B'C', alors les deux triangles sont similaires.
+Si dans un triangle ABC, $$\( \angle A = \angle A' \)$$, $$\( \angle B = \angle B' \)$$, et $$\( \angle C = \angle C' \)$$ dans un triangle A'B'C', alors les deux triangles sont similaires.
 
 ### 2. **Critère de similitude SAS (Côté-Angle-Côté)** 🔁
 
@@ -40,8 +40,8 @@ Si dans deux triangles, **un angle** est égal et **les côtés adjacents à cet
 
 #### Exemple :
 Soit deux triangles ABC et A'B'C' :
-- \( \angle A = \angle A' \),
-- \( \frac{AB}{A'B'} = \frac{AC}{A'C} \),
+- $$\( \angle A = \angle A' \)$$,
+- $$\( \frac{AB}{A'B'} = \frac{AC}{A'C} \)$$,
 
 Alors, les triangles ABC et A'B'C' sont similaires.
 
@@ -51,7 +51,7 @@ Si dans deux triangles, **les trois côtés** sont proportionnels, alors les tri
 
 #### Exemple :
 Soit deux triangles ABC et A'B'C' :
-- \( \frac{AB}{A'B'} = \frac{BC}{B'C'} = \frac{CA}{C'A'} \),
+- $$\( \frac{AB}{A'B'} = \frac{BC}{B'C'} = \frac{CA}{C'A'} \)$$,
 
 Alors, les triangles ABC et A'B'C' sont similaires.
 
@@ -62,29 +62,29 @@ Alors, les triangles ABC et A'B'C' sont similaires.
 ### Exemple 1 : Critère AAA
 
 Prenons deux triangles ABC et A'B'C' avec :
-- \( \angle A = \angle A' \)
-- \( \angle B = \angle B' \)
-- \( \angle C = \angle C' \)
+- $$\( \angle A = \angle A' \)$$
+- $$\( \angle B = \angle B' \)$$
+- $$\( \angle C = \angle C' \)$$
 
 Les triangles sont donc **similaires** par le critère AAA. 
 
 ### Exemple 2 : Critère SAS
 
 Considérons les triangles ABC et A'B'C' :
-- \( \angle A = \angle A' \),
-- \( AB = 6 \, \text{cm} \), \( A'B' = 12 \, \text{cm} \),
-- \( AC = 9 \, \text{cm} \), \( A'C' = 18 \, \text{cm} \),
+- $$\( \angle A = \angle A' \),$$
+- $$\( AB = 6 \, \text{cm} \), \( A'B' = 12 \, \text{cm} \),$$
+- $$\( AC = 9 \, \text{cm} \), \( A'C' = 18 \, \text{cm} \),$$
 
-Ici, le rapport des côtés \( \frac{AB}{A'B'} = \frac{6}{12} = \frac{1}{2} \) et \( \frac{AC}{A'C'} = \frac{9}{18} = \frac{1}{2} \).
+Ici, le rapport des côtés $$\( \frac{AB}{A'B'} = \frac{6}{12} = \frac{1}{2} \) et \( \frac{AC}{A'C'} = \frac{9}{18} = \frac{1}{2} \).$$
 
-Comme les côtés sont proportionnels et que l'angle \( \angle A = \angle A' \) est égal, les triangles sont **similaires** par le critère SAS.
+Comme les côtés sont proportionnels et que l'angle $$\( \angle A = \angle A' \)$$ est égal, les triangles sont **similaires** par le critère SAS.
 
 ### Exemple 3 : Critère SSS
 
 Si dans deux triangles ABC et A'B'C', on a :
-- \( \frac{AB}{A'B'} = 2 \),
-- \( \frac{BC}{B'C'} = 2 \),
-- \( \frac{CA}{C'A'} = 2 \),
+- $$\( \frac{AB}{A'B'} = 2 \),$$
+- $$\( \frac{BC}{B'C'} = 2 \),$$
+- $$\( \frac{CA}{C'A'} = 2 \),$$
 
 Alors les triangles ABC et A'B'C' sont **similaires** par le critère SSS, car tous les côtés sont proportionnels.
 
@@ -112,25 +112,25 @@ Dans le domaine de l'architecture et de la construction, les triangles similaire
 
 ### Exercice 1 : Critère AAA
 1. Soit les triangles ABC et A'B'C' où :
-   - \( \angle A = 60^\circ \), \( \angle A' = 60^\circ \)
-   - \( \angle B = 50^\circ \), \( \angle B' = 50^\circ \)
-   - \( \angle C = 70^\circ \), \( \angle C' = 70^\circ \)
+   - $$\( \angle A = 60^\circ \), \( \angle A' = 60^\circ \)$$
+   - $$\( \angle B = 50^\circ \), \( \angle B' = 50^\circ \)$$
+   - $$\( \angle C = 70^\circ \), \( \angle C' = 70^\circ \)$$
    
    Montre que les triangles ABC et A'B'C' sont similaires.
 
 ### Exercice 2 : Critère SAS
 2. Soit les triangles ABC et A'B'C' où :
-   - \( \angle A = \angle A' = 90^\circ \),
-   - \( \frac{AB}{A'B'} = \frac{4}{8} \),
-   - \( \frac{AC}{A'C'} = \frac{6}{12} \).
+   - $$\( \angle A = \angle A' = 90^\circ \),$$
+   - $$\( \frac{AB}{A'B'} = \frac{4}{8} \),$$
+   - $$\( \frac{AC}{A'C'} = \frac{6}{12} \).$$
    
    Montre que les triangles ABC et A'B'C' sont similaires.
 
 ### Exercice 3 : Critère SSS
 3. Soit les triangles ABC et A'B'C' où :
-   - \( \frac{AB}{A'B'} = \frac{5}{10} \),
-   - \( \frac{BC}{B'C'} = \frac{7}{14} \),
-   - \( \frac{CA}{C'A'} = \frac{8}{16} \).
+   - $$\( \frac{AB}{A'B'} = \frac{5}{10} \),$$
+   - $$\( \frac{BC}{B'C'} = \frac{7}{14} \),$$
+   - $$\( \frac{CA}{C'A'} = \frac{8}{16} \).$$
 
    Montre que les triangles ABC et A'B'C' sont similaires.
 

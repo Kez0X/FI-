@@ -23,8 +23,8 @@ L’algorithme cherche à chaque étape l'élément le plus petit dans la partie
 3. On répète cette opération pour les autres éléments.
 
 ### Complexité :
-- **Temps** : \(O(n^2)\) (mauvaise performance pour de grandes listes).
-- **Espace** : \(O(1)\) (tri en place).
+- **Temps** : $$\(O(n^2)\)$$ (mauvaise performance pour de grandes listes).
+- **Espace** : $$\(O(1)\)$$ (tri en place).
 
 ### Code en Python :
 ```python
@@ -57,8 +57,8 @@ Le **tri par insertion** fonctionne de manière similaire à la façon dont on t
 3. On répète l’opération pour tous les éléments.
 
 ### Complexité :
-- **Temps** : \(O(n^2)\) (mauvaise performance pour de grandes listes).
-- **Espace** : \(O(1)\) (tri en place).
+- **Temps** : $$\(O(n^2)\)$$ (mauvaise performance pour de grandes listes).
+- **Espace** : $$\(O(1)\)$$ (tri en place).
 
 ### Code en Python :
 ```python
@@ -92,8 +92,8 @@ Le **tri à bulles** est un algorithme simple mais inefficace qui fonctionne en 
 3. On répète ces comparaisons pour chaque élément jusqu’à ce que la liste soit triée.
 
 ### Complexité :
-- **Temps** : \(O(n^2)\) (mauvaise performance pour de grandes listes).
-- **Espace** : \(O(1)\) (tri en place).
+- **Temps** : $$\(O(n^2)\)$$ (mauvaise performance pour de grandes listes).
+- **Espace** : $$\(O(1)\)$$ (tri en place).
 
 ### Code en Python :
 ```python
@@ -129,8 +129,8 @@ Le **tri par fusion** est un algorithme basé sur le principe du **diviser pour 
 3. Fusionner les sous-listes triées pour obtenir la liste triée finale.
 
 ### Complexité :
-- **Temps** : \(O(n \log n)\) (très efficace même pour de grandes listes).
-- **Espace** : \(O(n)\) (nécessite de l'espace supplémentaire pour les sous-listes).
+- **Temps** : $$\(O(n \log n)\)$$ (très efficace même pour de grandes listes).
+- **Espace** : $$\(O(n)\)$$ (nécessite de l'espace supplémentaire pour les sous-listes).
 
 ### Code en Python :
 ```python
@@ -173,17 +173,17 @@ Voici un tableau comparatif des algorithmes de tri mentionnés, afin de mieux co
 
 | Algorithme        | Complexité (Temps)  | Complexité (Espace) | Cas moyen/optimal  |
 |-------------------|---------------------|---------------------|--------------------|
-| Tri à bulles      | \(O(n^2)\)          | \(O(1)\)            | Mauvais            |
-| Tri par sélection | \(O(n^2)\)          | \(O(1)\)            | Mauvais            |
-| Tri par insertion | \(O(n^2)\)          | \(O(1)\)            | Mauvais            |
-| Tri par fusion    | \(O(n \log n)\)     | \(O(n)\)            | Très efficace      |
+| Tri à bulles      | $$\(O(n^2)\)$$          | $$\(O(1)\)$$            | Mauvais            |
+| Tri par sélection | $$\(O(n^2)\)$$          | $$\(O(1)\)$$            | Mauvais            |
+| Tri par insertion | $$\(O(n^2)\)$$          | $$\(O(1)\)$$            | Mauvais            |
+| Tri par fusion    | $$\(O(n \log n)\)$$     | $$\(O(n)\)$$            | Très efficace      |
 
 ---
 
 ## Conclusion 🎯
 
-- **Tri à bulles**, **tri par sélection**, et **tri par insertion** sont des algorithmes simples à comprendre, mais leurs performances sont lentes, surtout pour les grandes listes, avec une complexité de \(O(n^2)\).
-- Le **tri par fusion** est un algorithme beaucoup plus performant avec une complexité de \(O(n \log n)\), ce qui le rend adapté même pour des grandes listes. Cependant, il nécessite un espace supplémentaire.
+- **Tri à bulles**, **tri par sélection**, et **tri par insertion** sont des algorithmes simples à comprendre, mais leurs performances sont lentes, surtout pour les grandes listes, avec une complexité de $$\(O(n^2)\)$$.
+- Le **tri par fusion** est un algorithme beaucoup plus performant avec une complexité de $$\(O(n \log n)\)$$, ce qui le rend adapté même pour des grandes listes. Cependant, il nécessite un espace supplémentaire.
 
 En Python, pour les applications réelles, on utilise généralement des fonctions de tri optimisées comme **`sorted()`** ou **`sort()`**, qui utilisent un algorithme appelé **Timsort** et qui est beaucoup plus rapide pour la plupart des cas d'usage. Mais comprendre ces algorithmes est essentiel pour développer une bonne intuition des performances des algorithmes de tri. 😊
 
@@ -206,11 +206,12 @@ L'algorithme des **k plus proches voisins** (K-NN) est un algorithme de classifi
 3. Effectuer la classification ou la régression selon les voisins trouvés.
 
 ### Exemple de Calcul de Distance Euclidienne :
-La distance entre deux points \(A(x_1, y_1)\) et \(B(x_2, y_2)\) dans un plan 2D est donnée par :
-
+La distance entre deux points $$ \(A(x_1, y_1)\) $$ et $$ \(B(x_2, y_2)\) $$ dans un plan 2D est donnée par :
+$$
 \[
 d(A, B) = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
 \]
+$$
 
 ### Code en Python :
 
@@ -247,8 +248,8 @@ print(knn(X_train, y_train, X_test, 3))  # Résultat : [0, 1]
 ```
 
 ### Complexité :
-- **Temps** : La recherche des k plus proches voisins nécessite de calculer la distance pour chaque point, donc la complexité est \(O(n \cdot d)\), où \(n\) est le nombre de points et \(d\) est la dimension des données.
-- **Espace** : \(O(n)\), car il faut stocker les données d'entraînement.
+- **Temps** : La recherche des k plus proches voisins nécessite de calculer la distance pour chaque point, donc la complexité est \(O(n \cdot d)\), où \(n\) est le nombre de points et $$\(d\)$$ est la dimension des données.
+- **Espace** : $$\(O(n)\)$$, car il faut stocker les données d'entraînement.
 
 ---
 
@@ -269,8 +270,8 @@ L'**algorithme de Dijkstra** est un algorithme fondamental en théorie des graph
 4. L'algorithme se termine lorsque tous les sommets ont été explorés.
 
 ### Complexité :
-- **Temps** : Avec une file de priorité, la complexité temporelle est \(O((V + E) \log V)\), où \(V\) est le nombre de sommets et \(E\) le nombre d'arêtes.
-- **Espace** : \(O(V)\), car on doit stocker les distances et les prédécesseurs des sommets.
+- **Temps** : Avec une file de priorité, la complexité temporelle est $$\(O((V + E) \log V)\)$$, où $$\(V\)$$ est le nombre de sommets et $$\(E\)$$ le nombre d'arêtes.
+- **Espace** : $$\(O(V)\)$$, car on doit stocker les distances et les prédécesseurs des sommets.
 
 ### Code en Python :
 

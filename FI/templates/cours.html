@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formations Informatique - Langages - Cours {{ langage }}</title>
     <link rel="stylesheet" href="/static/style/course_view.css">
+    <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    
     <link rel="icon" type="image/svg" href="/static/image/FI.svg">
     <style>
         /* Style pour le lien actif */
@@ -89,14 +91,19 @@
             const langage = urlParams.get('langage') || 'python';  // Par défaut 'python'
             const cours = urlParams.get('cours') || 'intro';  // Par défaut 'intro'
 
-            // Fonction pour charger un cours à partir d'un fichier markdown
             function loadCourse(langage, cours) {
                 fetch(`/md/${langage}/${cours}`)
                     .then(response => response.text())
                     .then(md => {
                         document.getElementById("content").innerHTML = marked.parse(md);
+                        
+                        // Redémarrer MathJax pour traiter les formules après l'injection du Markdown
+                        if (window.MathJax) {
+                            MathJax.typesetPromise();
+                        }
                     });
             }
+
 
             // Charger le cours initialement
             loadCourse(langage, cours);
