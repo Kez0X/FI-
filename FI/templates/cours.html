@@ -243,7 +243,7 @@
                 coursList[langage].forEach(c => {
                     const li = document.createElement("li");
                     const a = document.createElement("a");
-                    a.href = `?langage=${langage}&cours=${c}`;  // Ajouter les paramètres dans l'URL
+                    a.href = `/cours/${langage}/${c}?langage=${langage}&cours=${c}`;  // Ajouter les paramètres dans l'URL
                     a.textContent = c.replaceAll("-", " ");
 
                     // Vérifier si le cours correspond au cours actif et ajouter la classe 'active-course'
@@ -254,27 +254,39 @@
                     // Ajouter un événement de clic pour empêcher le rechargement de la page et mettre à jour le contenu
                     a.addEventListener("click", (event) => {
                         event.preventDefault();  // Empêcher le rechargement de la page
-                        window.history.pushState({}, "", `?langage=${langage}&cours=${c}`);  // Mettre à jour l'URL
-                        loadCourse(langage, c);  // Charger le cours correspondant
+                        const newCours = c; // Nouveau cours sélectionné
+                        window.history.pushState({}, "", `/cours/${langage}/${newCours}?langage=${langage}&cours=${newCours}`);  // Mettre à jour l'URL
+                        loadCourse(langage, newCours);  // Charger le contenu du cours
 
                         // Retirer la classe active de tous les liens
                         document.querySelectorAll("#toc a").forEach(link => link.classList.remove("active-course"));
-
                         // Ajouter la classe active au lien cliqué
                         a.classList.add("active-course");
+
+                        // Mettre à jour les boutons de navigation avec le nouveau cours
+                        showNavigationButtons(newCours);
                     });
+
 
                     li.appendChild(a);
                     toc.appendChild(li);
                 });
             }
 
+            function updateActiveLink(coursActuel) {
+                document.querySelectorAll("#toc a").forEach(link => {
+                    link.classList.remove("active-course");
+                    if (link.href.includes(`cours=${coursActuel}`)) {
+                        link.classList.add("active-course");
+                    }
+                });
+            }
+
             // Ajouter le sommaire dans l'élément avec l'ID "toc"
             document.getElementById('toc').appendChild(toc);
 
-            // Fonction pour afficher les boutons de navigation
-            function showNavigationButtons() {
-                const currentIndex = coursList[langage].indexOf(cours);
+            function showNavigationButtons(coursActuel) {
+                const currentIndex = coursList[langage].indexOf(coursActuel);
                 const prevCourse = currentIndex > 0 ? coursList[langage][currentIndex - 1] : null;
                 const nextCourse = currentIndex < coursList[langage].length - 1 ? coursList[langage][currentIndex + 1] : null;
 
@@ -283,16 +295,17 @@
 
                 const homeButton = document.createElement('button');
                 homeButton.textContent = 'Retour à l\'accueil';
-                homeButton.onclick = () => {
-                    window.location.href = '/';  // Redirige vers l'accueil
-                };
+                homeButton.onclick = () => window.location.href = '/';  
 
                 const prevButton = document.createElement('button');
                 prevButton.textContent = prevCourse ? 'Précédent' : 'Aucun Précédent';
                 prevButton.disabled = !prevCourse;
                 prevButton.onclick = () => {
                     if (prevCourse) {
-                        window.location.href = `?langage=${langage}&cours=${prevCourse}`;
+                        window.history.pushState({}, "", `/cours/${langage}/${prevCourse}?langage=${langage}&cours=${prevCourse}`);
+                        loadCourse(langage, prevCourse);
+                        showNavigationButtons(prevCourse);
+                        updateActiveLink(prevCourse);
                     }
                 };
 
@@ -301,7 +314,10 @@
                 nextButton.disabled = !nextCourse;
                 nextButton.onclick = () => {
                     if (nextCourse) {
-                        window.location.href = `?langage=${langage}&cours=${nextCourse}`;
+                        window.history.pushState({}, "", `/cours/${langage}/${nextCourse}?langage=${langage}&cours=${nextCourse}`);
+                        loadCourse(langage, nextCourse);
+                        showNavigationButtons(nextCourse);
+                        updateActiveLink(nextCourse);
                     }
                 };
 
@@ -309,6 +325,9 @@
                 navigationDiv.appendChild(prevButton);
                 navigationDiv.appendChild(nextButton);
             }
+
+
+
 
             // Afficher les boutons de navigation au chargement
             showNavigationButtons();

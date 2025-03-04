@@ -435,4 +435,8 @@ a{
     .footer-content {
         flex-direction : column;
     }
+    
+    html, body {
+        overflow-x: hidden;
+    }
 }
