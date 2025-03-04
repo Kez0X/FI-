@@ -13,6 +13,28 @@
             font-weight: bold;  /* Mettre en gras */
             color: #007bff; /* Couleur bleue pour le lien actif */
         }
+
+        /* Boutons de navigation */
+        .navigation-buttons {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .navigation-buttons button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            border-radius: 5px;
+            margin: 0 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .navigation-buttons button:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
@@ -34,9 +56,31 @@
         <main class="course-content" id="content">
             <!-- Contenu du cours -->
         </main>
-        
     </div>
 
+    <div class="navigation-buttons" id="navigation-buttons">
+        <!-- Boutons de navigation -->
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <p>&copy; 2025 FI+ - Tous droits réservés</p>
+            </div>
+            <div class="footer-center">
+                <ul class="footer-links">
+                    <li><a href="https://lukabaudrant.vld-group.com/#about">À propos</a></li>
+                    <li><a href="/services">Nos services</a></li>
+                    <li><a href="https://lukabaudrant.vld-group.com/" target="_blank">Portfolio</a></li>
+                    <li><a href="https://www.superprof.fr/freelance-informatique-etudiant-troisieme-annee-faculte-informatique-lyon-propose-cours-numerique.html#opinions" target="_blank">Superprof</a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <p>Contactez-moi : <a href="mailto:baudrantl@gmail.com">baudrantl@gmail.com</a></p>
+            </div>
+        </div>
+    </footer>
+    
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             // Récupérer le langage et le cours à partir de l'URL
@@ -152,6 +196,47 @@
 
             // Ajouter le sommaire dans l'élément avec l'ID "toc"
             document.getElementById('toc').appendChild(toc);
+
+            // Fonction pour afficher les boutons de navigation
+            function showNavigationButtons() {
+                const currentIndex = coursList[langage].indexOf(cours);
+                const prevCourse = currentIndex > 0 ? coursList[langage][currentIndex - 1] : null;
+                const nextCourse = currentIndex < coursList[langage].length - 1 ? coursList[langage][currentIndex + 1] : null;
+
+                const navigationDiv = document.getElementById('navigation-buttons');
+                navigationDiv.innerHTML = ''; // Réinitialiser les boutons
+
+                const homeButton = document.createElement('button');
+                homeButton.textContent = 'Retour à l\'accueil';
+                homeButton.onclick = () => {
+                    window.location.href = '/langages';  // Redirige vers l'accueil des langages
+                };
+
+                const prevButton = document.createElement('button');
+                prevButton.textContent = prevCourse ? 'Précédent' : 'Aucun Précédent';
+                prevButton.disabled = !prevCourse;
+                prevButton.onclick = () => {
+                    if (prevCourse) {
+                        window.location.href = `?langage=${langage}&cours=${prevCourse}`;
+                    }
+                };
+
+                const nextButton = document.createElement('button');
+                nextButton.textContent = nextCourse ? 'Suivant' : 'Aucun Suivant';
+                nextButton.disabled = !nextCourse;
+                nextButton.onclick = () => {
+                    if (nextCourse) {
+                        window.location.href = `?langage=${langage}&cours=${nextCourse}`;
+                    }
+                };
+
+                navigationDiv.appendChild(homeButton);
+                navigationDiv.appendChild(prevButton);
+                navigationDiv.appendChild(nextButton);
+            }
+
+            // Afficher les boutons de navigation au chargement
+            showNavigationButtons();
         });
     </script>
 </body>
