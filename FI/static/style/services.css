@@ -1,0 +1,285 @@
+/* Règles de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+}
+
+a{
+    text-decoration: none;
+    color : #1abc9c;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Espacement entre le logo et le menu */
+    align-items: center;
+    width: 100%;
+    padding: 20px 30px;
+    background-color: #34495e;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-logo img {
+    height: 50px;
+}
+
+/* Menu principal */
+.navbar-menu {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.navbar-link {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.navbar-link:hover,
+.navbar-link:focus {
+    color: #1abc9c;
+    transform: translateY(-3px); /* Effet de levée */
+}
+
+.navbar-link i {
+    margin-right: 10px; /* Espacement entre l'icône et le texte */
+}
+
+/* Burger menu */
+.burger {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+    z-index: 1100;
+}
+
+.burger div {
+    width: 30px;
+    height: 3px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+}
+/* Styles pour la section des services */
+.services-page {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Grille des services */
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+/* Carte de service */
+.service-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Icônes */
+.service-card i {
+    font-size: 3rem;
+    color: #1abc9c;
+    margin-bottom: 15px;
+}
+
+/* Titre */
+.service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Description */
+.service-card p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+/* Avis */
+.reviews {
+    background: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+    font-style: italic;
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+/* Boutons */
+.service-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.btn-primary, .btn-secondary {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn-primary {
+    background: #1abc9c;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background: #0056b3;
+}
+
+.btn-secondary {
+    background: #28a745;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background: #1e7e34;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .services-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* Styles pour le footer */
+.footer {
+    background-color: #34495e;
+    color: #ffffff;
+    padding: 20px 0;
+    font-size: 1rem;
+    border-top: 1px solid #ddd;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-left p {
+    margin: 0;
+}
+
+.footer-center .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-center .footer-links li {
+    display: inline-block;
+}
+
+.footer-center .footer-links li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.footer-center .footer-links li a:hover {
+    color: #007bff;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-right a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.footer-right a:hover {
+    color: #0056b3;
+}
+
+
+/* Responsivité */
+@media (max-width: 900px) {
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        background-color: #34495e;
+        width: 100%;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .navbar-menu.active {
+        display: flex;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .footer-content {
+        flex-direction : column;
+    }
+}

@@ -408,7 +408,6 @@ a{
     color: #0056b3;
 }
 
-
 /* Responsivité */
 @media (max-width: 900px) {
     .navbar-menu {
@@ -431,5 +430,9 @@ a{
 
     .burger {
         display: flex;
+    }
+
+    .footer-content {
+        flex-direction : column;
     }
 }

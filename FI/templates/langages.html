@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>Formations Informatique - Langages</title>
+    <link rel="stylesheet" href="/static/style/course.css">
+    <link rel="icon" type="image/svg" href="/static/image/FI.svg">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <a href="/">
+                <img src="/static/image/FI.svg" alt="FI+ Logo">
+            </a>
+        </div>
+        <div class="burger" id="burger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <ul class="navbar-menu">
+            <li><a href="/langages" class="navbar-link"><i class="fas fa-laptop-code"></i> Langages</a></li>
+            <li><a href="#" class="navbar-link"><i class="fas fa-network-wired"></i> Dev Web</a></li>
+            <li><a href="#" class="navbar-link"><i class="fas fa-database"></i> Bases de données</a></li>
+            <li><a href="#" class="navbar-link"><i class="fas fa-calculator"></i> Maths</a></li>
+            <li><a href="#" class="navbar-link"><i class="fas fa-desktop"></i> OS</a></li>
+            <li><a href="#" class="navbar-link"><i class="fas fa-code-branch"></i> Paradigmes</a></li>
+        </ul>
+    </nav>
+    <h1>Choisissez un langage</h1>
+    <div class="langage-container">
+        <a href="/cours/python/intro?langage=python&cours=intro" class="langage-card">Python</a>
+        <a href="/cours/c/intro?langage=c&cours=intro" class="langage-card">C</a>
+        <a href="/cours/cpp/intro?langage=cpp&cours=intro" class="langage-card">C++</a>
+    </div>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+        const burger = document.getElementById("burger");
+        const menu = document.querySelector(".navbar-menu");
+
+        // Toggle menu burger
+        burger.addEventListener("click", function () {
+            menu.classList.toggle("active");
+        });
+    });
+    </script>
+</body>
+</html>

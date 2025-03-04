@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formations Informatique - Langages - Cours {{ langage }}</title>
+    <link rel="stylesheet" href="/static/style/course_view.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="icon" type="image/svg" href="/static/image/FI.svg">
+    <style>
+        /* Style pour le lien actif */
+        .active-course {
+            font-weight: bold;  /* Mettre en gras */
+            color: #007bff; /* Couleur bleue pour le lien actif */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/langages">🔙 Retour</a>
+        <h1>Cours de {{ langage }}</h1>
+    </nav>
+
+    <div class="container">
+        <!-- Sidebar : Sommaire -->
+        <aside class="sidebar">
+            <h2>Sommaire</h2>
+            <ul id="toc">
+                <!-- Sommaire généré dynamiquement -->
+            </ul>
+        </aside>
+
+        <!-- Main Content : Cours -->
+        <main class="course-content" id="content">
+            <!-- Contenu du cours -->
+        </main>
+        
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            // Récupérer le langage et le cours à partir de l'URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const langage = urlParams.get('langage') || 'python';  // Par défaut 'python'
+            const cours = urlParams.get('cours') || 'intro';  // Par défaut 'intro'
+
+            // Fonction pour charger un cours à partir d'un fichier markdown
+            function loadCourse(langage, cours) {
+                fetch(`/md/${langage}/${cours}`)
+                    .then(response => response.text())
+                    .then(md => {
+                        document.getElementById("content").innerHTML = marked.parse(md);
+                    });
+            }
+
+            // Charger le cours initialement
+            loadCourse(langage, cours);
+
+            // Un sommaire pour chaque langage
+            const coursList = {
+                "python": [
+                    "intro",
+                    "types-de-donnees",
+                    "operations-et-operateurs",
+                    "variables",
+                    "controle-de-flux",
+                    "boucles",
+                    "fonctions",
+                    "gestion-des-erreurs",
+                    "manipulation-des-fichiers",
+                    "classes-et-objets",
+                    "modules-et-packages",
+                    "structures-de-donnees-avancees",
+                    "matrices",
+                    "graphes",
+                    "algorithmes",
+                    "tuples",
+                    "bibliotheques-externes",
+                    "developpement-web",
+                    "introduction-a-l-ia",
+                    "gestion-de-projets"
+                ],
+                "c": [
+                    "intro",
+                    "types-de-donnees",
+                    "operations-et-operateurs",
+                    "controle-de-flux",
+                    "fonctions",
+                    "pointeurs",
+                    "structures-de-donnees",
+                    "matrices",
+                    "graphes",
+                    "gestion-des-erreurs",
+                    "manipulation-des-fichiers",
+                    "memoire-dynamique",
+                    "bibliotheques-externes",
+                    "programmation-systeme",
+                    "optimisation-et-performance",
+                    "introduction-a-lalgorithmique"
+                ],
+                "cpp": [
+                    "intro",
+                    "types-de-donnees",
+                    "operations-et-operateurs",
+                    "controle-de-flux",
+                    "fonctions",
+                    "programmation-orientee-objet",
+                    "templates",
+                    "gestion-des-erreurs",
+                    "pointeurs-et-references",
+                    "structures-de-donnees",
+                    "matrices",
+                    "graphes",
+                    "gestion-de-la-memoire",
+                    "stl",
+                    "gestion-des-threads",
+                    "optimisation-et-performance"
+                ]
+            };
+
+            // Créer le sommaire dynamique
+            const toc = document.createElement("ul");
+            if (coursList[langage]) {
+                coursList[langage].forEach(c => {
+                    const li = document.createElement("li");
+                    const a = document.createElement("a");
+                    a.href = `?langage=${langage}&cours=${c}`;  // Ajouter les paramètres dans l'URL
+                    a.textContent = c.replace("-", " ");
+
+                    // Vérifier si le cours correspond au cours actif et ajouter la classe 'active-course'
+                    if (cours === c) {
+                        a.classList.add("active-course");
+                    }
+
+                    // Ajouter un événement de clic pour empêcher le rechargement de la page et mettre à jour le contenu
+                    a.addEventListener("click", (event) => {
+                        event.preventDefault();  // Empêcher le rechargement de la page
+                        window.history.pushState({}, "", `?langage=${langage}&cours=${c}`);  // Mettre à jour l'URL
+                        loadCourse(langage, c);  // Charger le cours correspondant
+
+                        // Retirer la classe active de tous les liens
+                        document.querySelectorAll("#toc a").forEach(link => link.classList.remove("active-course"));
+
+                        // Ajouter la classe active au lien cliqué
+                        a.classList.add("active-course");
+                    });
+
+                    li.appendChild(a);
+                    toc.appendChild(li);
+                });
+            }
+
+            // Ajouter le sommaire dans l'élément avec l'ID "toc"
+            document.getElementById('toc').appendChild(toc);
+        });
+    </script>
+</body>
+</html>
