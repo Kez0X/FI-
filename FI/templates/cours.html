@@ -6,6 +6,7 @@
     <title>Formations Informatique - Langages - Cours {{ langage }}</title>
     <link rel="stylesheet" href="/static/style/course_view.css">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    
     <link rel="icon" type="image/svg" href="/static/image/FI.svg">
     <style>
         /* Style pour le lien actif */
@@ -182,11 +183,28 @@
                     "theoreme-de-thales"
                 ],
                 "3eme": [
-                    "pythagore-et-thales",
-                    "calculs-de-volumes",
-                    "statistiques-et-probabilites",
-                    "fonctions-affines",
-                    "preparation-au-brevet"
+                    "theoreme-de-pythagore",
+                    "applications-du-theoreme-de-pythagore",
+                    "similarite-des-triangles",
+                    "le-theoreme-de-thales",
+                    "volumes-des-solides",
+                    "calcul-du-volume-du-cone",
+                    "calcul-du-volume-de-la-sphere",
+                    "calcul-du-volume-du-cylindre",
+                    "moyenne-et-ecart-type",
+                    "representations-graphiques",
+                    "probabilites-de-base",
+                    "probabilites-conditionnelles",
+                    "event-independants",
+                    "definir-une-fonction-affine",
+                    "graphique-dune-fonction-affine",
+                    "calculer-lordonne-dun-point",
+                    "application-dune-fonction-affine",
+                    "revision-pythagore-et-thales",
+                    "revision-statistiques",
+                    "revision-fonctions-affines",
+                    "exercices-types-brevet",
+                    "strategie-dexamen"
                 ],
                 "Seconde": [
                     "nombres-reels",
@@ -219,7 +237,7 @@
                     const li = document.createElement("li");
                     const a = document.createElement("a");
                     a.href = `?langage=${langage}&cours=${c}`;  // Ajouter les paramètres dans l'URL
-                    a.textContent = c.replace("-", " ");
+                    a.textContent = c.replaceAll("-", " ");
 
                     // Vérifier si le cours correspond au cours actif et ajouter la classe 'active-course'
                     if (cours === c) {
