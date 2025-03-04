@@ -39,7 +39,7 @@
 </head>
 <body>
     <nav>
-        <a href="/langages">🔙 Retour</a>
+        <a href="/">🔙 Retour</a>
         <h1>Cours de {{ langage }}</h1>
     </nav>
 
@@ -159,7 +159,57 @@
                     "stl",
                     "gestion-des-threads",
                     "optimisation-et-performance"
+                ],
+                "6eme": [
+                    "pythagore",
+                    "fractions",
+                    "nombres-relatifs",
+                    "geometrie",
+                    "statistiques"
+                ],
+                "5eme": [
+                    "calculs-composes",
+                    "proportions",
+                    "perimeteres-aires",
+                    "volumes",
+                    "probabilites"
+                ],
+                "4eme": [
+                    "nombres-rationnels",
+                    "equations",
+                    "fonctions",
+                    "statistiques-avancees",
+                    "theoreme-de-thales"
+                ],
+                "3eme": [
+                    "pythagore-et-thales",
+                    "calculs-de-volumes",
+                    "statistiques-et-probabilites",
+                    "fonctions-affines",
+                    "preparation-au-brevet"
+                ],
+                "Seconde": [
+                    "nombres-reels",
+                    "calculs-litteraux",
+                    "fonctions-affines-et-lineaires",
+                    "statistiques-descriptives",
+                    "probabilites"
+                ],
+                "Premiere": [
+                    "fonctions-quadratiques",
+                    "derivees",
+                    "statistiques-bivariantes",
+                    "probabilites-conditionnelles",
+                    "algorithmique"
+                ],
+                "Terminale": [
+                    "fonctions-exponentielles",
+                    "integrales",
+                    "equations-differentielles",
+                    "statistiques-inferentielles",
+                    "algorithmique-avancee"
                 ]
+
             };
 
             // Créer le sommaire dynamique
@@ -209,7 +259,7 @@
                 const homeButton = document.createElement('button');
                 homeButton.textContent = 'Retour à l\'accueil';
                 homeButton.onclick = () => {
-                    window.location.href = '/langages';  // Redirige vers l'accueil des langages
+                    window.location.href = '/';  // Redirige vers l'accueil
                 };
 
                 const prevButton = document.createElement('button');

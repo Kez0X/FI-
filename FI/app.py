@@ -13,6 +13,10 @@ def services():
 def langages():
     return render_template('langages.html')
 
+@app.route('/maths')
+def maths():
+    return render_template('maths.html')
+
 @app.route('/cours/<langage>/<cours>')
 def cours(langage, cours):
     return render_template('cours.html', langage=langage, cours=cours)
