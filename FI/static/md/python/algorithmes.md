@@ -7,8 +7,6 @@ Les algorithmes de tri sont utilisés pour organiser les données de manière ef
 3. **Tri à bulles** (Bubble Sort)
 4. **Tri par fusion** (Merge Sort)
 
----
-
 ## 1. Tri par Sélection (Selection Sort) 🔽
 
 Le **tri par sélection** fonctionne en divisant la liste en deux parties :
@@ -45,7 +43,6 @@ ma_liste = [64, 25, 12, 22, 11]
 print(tri_selection(ma_liste))  # [11, 12, 22, 25, 64]
 ```
 
----
 
 ## 2. Tri par Insertion (Insertion Sort) ⬆️
 
@@ -80,7 +77,6 @@ ma_liste = [64, 25, 12, 22, 11]
 print(tri_insertion(ma_liste))  # [11, 12, 22, 25, 64]
 ```
 
----
 
 ## 3. Tri à Bulles (Bubble Sort) 🔵
 
@@ -117,7 +113,6 @@ ma_liste = [64, 25, 12, 22, 11]
 print(tri_bulles(ma_liste))  # [11, 12, 22, 25, 64]
 ```
 
----
 
 ## 4. Tri par Fusion (Merge Sort) ⚡
 
@@ -165,7 +160,6 @@ ma_liste = [64, 25, 12, 22, 11]
 print(tri_fusion(ma_liste))  # [11, 12, 22, 25, 64]
 ```
 
----
 
 ## Résumé des Algorithmes de Tri
 
@@ -178,7 +172,6 @@ Voici un tableau comparatif des algorithmes de tri mentionnés, afin de mieux co
 | Tri par insertion | $$\(O(n^2)\)$$          | $$\(O(1)\)$$            | Mauvais            |
 | Tri par fusion    | $$\(O(n \log n)\)$$     | $$\(O(n)\)$$            | Très efficace      |
 
----
 
 ## Conclusion 🎯
 
@@ -251,7 +244,6 @@ print(knn(X_train, y_train, X_test, 3))  # Résultat : [0, 1]
 - **Temps** : La recherche des k plus proches voisins nécessite de calculer la distance pour chaque point, donc la complexité est \(O(n \cdot d)\), où \(n\) est le nombre de points et $$\(d\)$$ est la dimension des données.
 - **Espace** : $$\(O(n)\)$$, car il faut stocker les données d'entraînement.
 
----
 
 ### 2. **L'Algorithme de Dijkstra** 📍
 
@@ -327,7 +319,6 @@ print(dijkstra(graph, start_vertex))
 2. On initialise les distances des sommets à l'infini, sauf celle du sommet de départ qui est 0.
 3. L'algorithme explore les sommets de manière itérative en mettant à jour les distances et en utilisant une file de priorité pour toujours explorer le sommet avec la distance la plus courte.
 
----
 
 ## Conclusion 🏁
 

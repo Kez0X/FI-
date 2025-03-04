@@ -5,7 +5,7 @@
 Les **probabilités** permettent de mesurer la **chance** qu’un événement se produise.  
 Elles sont utilisées en **mathématiques, sciences, jeux, assurance, finance** et bien d’autres domaines.  
 
----
+
 
 ## 1️⃣ 📏 Définition d'une Probabilité  
 
@@ -20,7 +20,7 @@ Si tous les **issues** d'une expérience sont **équiprobables**, la probabilit�
 
 $$ P(A) = \frac{\text{nombre de cas favorables}}{\text{nombre de cas possibles}} $$  
 
----
+
 
 ## 2️⃣ 🎲 Exemple de Lancer de Dé  
 
@@ -38,7 +38,7 @@ $$ P(\text{pair}) = \frac{3}{6} = \frac{1}{2} $$
 
 $$ P(7) = 0 $$  
 
----
+
 
 ## 3️⃣ 🎲 Règles de Base des Probabilités  
 
@@ -48,7 +48,7 @@ La somme des probabilités de **tous les événements possibles** est toujours *
 
 $$ P(1) + P(2) + P(3) + P(4) + P(5) + P(6) = 1 $$  
 
----
+
 
 ### 📌 2. Probabilité de l'événement Complémentaire  
 
@@ -59,7 +59,7 @@ $$ P(\overline{A}) = 1 - P(A) $$
 
 ✔ **Exemple** : Si **\( P(A) = 0.3 \)** alors **\( P(\overline{A}) = 1 - 0.3 = 0.7 \)**  
 
----
+
 
 ### 📌 3. Probabilité d'Union d'Événements  
 
@@ -76,7 +76,7 @@ Donc :
 
 $$ P(A \cup B) = P(A) + P(B) = \frac{3}{6} + \frac{3}{6} = 1 $$  
 
----
+
 
 ## 4️⃣ 🎯 Probabilités Conditionnelles et Indépendance  
 
@@ -91,7 +91,7 @@ Si on tire une bille et on sait qu’elle est **rouge ou bleue**, quelle est la 
 
 $$ P(\text{rouge} | \text{rouge ou bleue}) = \frac{5}{5+3} = \frac{5}{8} $$  
 
----
+
 
 ### 📌 2. Indépendance  
 
@@ -106,7 +106,7 @@ $$ P(A \cap B) = P(A) \times P(B) $$
 
 $$ P(A \cap B) = \frac{1}{6} \times \frac{1}{6} = \frac{1}{36} $$  
 
----
+
 
 ## 📝 Exercices  
 
@@ -122,7 +122,7 @@ Quelle est la probabilité de tirer :
 📌 **Exercice 3** : On tire **2 cartes** d'un jeu de **52 cartes**.  
 Quelle est la probabilité de tirer **deux cœurs** ?  
 
----
+
 
 ## 🎯 Applications des Probabilités  
 
@@ -132,7 +132,7 @@ Quelle est la probabilité de tirer **deux cœurs** ?
 ✔ **Médecine** 🏥 : Déterminer la fiabilité d’un test médical.  
 ✔ **Finance** 💰 : Analyse des marchés et prévisions économiques.  
 
----
+
 
 ## 🎉 Conclusion  
 

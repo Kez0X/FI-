@@ -4,7 +4,7 @@ La **programmation orientée objet** (POO) est un paradigme de programmation qui
 
 En Python, la POO permet de mieux organiser le code et de faciliter la gestion de la complexité, notamment pour les projets de grande taille. Dans cette leçon, nous allons explorer comment créer et utiliser des classes et des objets en Python.
 
----
+
 
 ## 1. Qu'est-ce qu'une classe ? 🏛️
 
@@ -29,7 +29,7 @@ class Personne:
 
 Ici, nous avons une classe **`Personne`** qui possède deux attributs (`nom` et `age`) et une méthode **`saluer()`** qui affiche un message de salutation.
 
----
+
 
 ## 2. Créer un objet (instance) à partir d'une classe 🏗️
 
@@ -53,7 +53,7 @@ personne1.saluer()  # Bonjour, je m'appelle Alice et j'ai 25 ans.
 
 Ici, nous avons créé un objet **`personne1`** de la classe **`Personne`**. Nous avons ensuite assigné des valeurs aux attributs `nom` et `age` de cet objet, puis nous avons appelé la méthode **`saluer()`**.
 
----
+
 
 ## 3. Le constructeur (`__init__`) 🏗️
 
@@ -81,7 +81,7 @@ personne1.saluer()  # Bonjour, je m'appelle Alice et j'ai 25 ans.
 
 Ici, lors de la création de l'objet **`personne1`**, nous passons les arguments `"Alice"` et `25` au constructeur **`__init__()`**, ce qui permet d'initialiser les attributs `nom` et `age` de l'objet.
 
----
+
 
 ## 4. Les méthodes d'une classe ⚙️
 
@@ -110,7 +110,7 @@ personne1.anniversaire()  # Joyeux anniversaire Alice! Tu as maintenant 26 ans.
 
 Ici, nous avons ajouté une méthode **`anniversaire()`** qui augmente l'âge de la personne de 1 et affiche un message.
 
----
+
 
 ## 5. L'héritage en Python 🧬
 
@@ -138,7 +138,7 @@ etudiant1.afficher_moyenne()  # Bob a une moyenne de 15.5.
 - **`super().__init__(nom, age)`** : Appelle le constructeur de la classe **`Personne`** pour initialiser les attributs communs.
 - La classe **`Etudiant`** a maintenant les attributs et méthodes de la classe **`Personne`** et peut aussi définir ses propres attributs et méthodes.
 
----
+
 
 ## 6. Encapsulation et méthodes d'accès 🔒
 
@@ -171,7 +171,7 @@ print(personne1.get_nom())  # Bob
 
 - **`get_nom()`** et **`set_nom()`** sont des méthodes qui permettent d'accéder et de modifier les attributs privés de manière contrôlée.
 
----
+
 
 ## 7. Conclusion 🏁
 
@@ -184,7 +184,7 @@ Les **classes** et **objets** sont au cœur de la programmation orientée objet 
 
 La POO permet de rendre ton code plus modulable, réutilisable et compréhensible. Si tu veux aller plus loin, tu peux explorer des concepts comme l'**abstraction**, le **polymorphisme**, et les **interfaces**.
 
----
+
 
 ## 8. La méthode `__str__()` : Personnaliser l'affichage d'un objet 🎨
 
@@ -250,7 +250,7 @@ print(personne1)  # Alice, 25 ans
 
 Ici, la méthode **`__str__()`** retourne une chaîne qui affiche seulement le nom et l'âge de la personne, d'une manière plus concise.
 
----
+
 
 ## 9. Conclusion : La méthode `__str__()` pour personnaliser l'affichage 🖼️
 

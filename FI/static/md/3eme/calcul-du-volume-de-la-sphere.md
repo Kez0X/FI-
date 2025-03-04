@@ -7,7 +7,7 @@ Elle est définie par un unique paramètre : **son rayon \( r \)**.
 
 Le **volume d'une sphère** correspond à **l'espace qu'elle occupe**. Il est exprimé en unités cubiques : **cm³, m³, L…**  
 
----
+
 
 ## 📏 Formule du Volume de la Sphère  
 
@@ -21,7 +21,7 @@ où :
 
 💡 **Remarque** : Plus le rayon est grand, plus la sphère a un volume important !  
 
----
+
 
 ## ✍️ Exemples de Calcul  
 
@@ -43,7 +43,7 @@ $$ V_{\text{sphère}} \approx 288 \times 3.14 = 904.32 \, \text{cm}^3 $$
 
 🔹 **Réponse** : Le volume de la sphère est **904.32 cm³**  
 
----
+
 
 ### 📌 Exemple 2 : Sphère de rayon 10 cm  
 
@@ -61,7 +61,7 @@ $$ V_{\text{sphère}} \approx 1333.33 \times 3.14 = 4186.67 \, \text{cm}^3 $$
 
 🔹 **Réponse** : Le volume de la sphère est **4186.67 cm³**  
 
----
+
 
 ## 📝 Exercices  
 
@@ -71,7 +71,7 @@ $$ V_{\text{sphère}} \approx 1333.33 \times 3.14 = 4186.67 \, \text{cm}^3 $$
 
 📌 **Exercice 3** : Une sphère a un volume de **905 cm³**. Trouver son rayon \( r \).  
 
----
+
 
 ## 🎯 Applications du Volume de la Sphère  
 
@@ -82,7 +82,7 @@ Le calcul du volume de la sphère est utilisé dans de nombreux domaines :
 🔹 **Géométrie et physique** 📏 : Études sur les bulles, gouttes d’eau, et ballons.  
 🔹 **Transport et stockage** 🚚 : Volume de réservoirs sphériques de gaz ou de liquides.  
 
----
+
 
 ## 🎉 Conclusion  
 

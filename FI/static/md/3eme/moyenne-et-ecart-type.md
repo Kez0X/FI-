@@ -7,7 +7,7 @@ Deux outils essentiels sont :
 ✔️ **La moyenne** : mesure **centrale** des données.  
 ✔️ **L'écart-type** : mesure la **dispersion** des valeurs autour de la moyenne.  
 
----
+
 
 ## 1️⃣ 📏 Moyenne  
 
@@ -27,7 +27,7 @@ $$ \bar{x} = \frac{\sum x_i}{n} $$
 
 où \( \sum x_i \) représente la **somme de toutes les valeurs**.  
 
----
+
 
 ### ✍️ Exemple de Calcul  
 
@@ -41,7 +41,7 @@ $$ \bar{x} = \frac{69}{5} = 13.8 $$
 
 🔹 **Réponse** : La moyenne est **13.8**  
 
----
+
 
 ## 2️⃣ 📏 Écart-Type  
 
@@ -64,7 +64,7 @@ où :
 
 💡 **Remarque** : Pour un **échantillon** (et non une population entière), on divise par **\( n-1 \)** au lieu de \( n \).  
 
----
+
 
 ### ✍️ Exemple de Calcul  
 
@@ -73,7 +73,7 @@ On reprend les notes : **12, 15, 10, 18, 14** (moyenne \( \bar{x} = 13.8 \))
 1️⃣ **Calcul des écarts à la moyenne** :  
 
 | \( x_i \) | \( x_i - \bar{x} \) | \( (x_i - \bar{x})^2 \) |
-|-----------|---------------------|-------------------------|
+|--||-|
 | 12        | \( 12 - 13.8 = -1.8 \) | \( (-1.8)^2 = 3.24 \)  |
 | 15        | \( 15 - 13.8 = 1.2 \)  | \( (1.2)^2 = 1.44 \)   |
 | 10        | \( 10 - 13.8 = -3.8 \) | \( (-3.8)^2 = 14.44 \) |
@@ -90,7 +90,7 @@ $$ \sigma = \sqrt{\frac{36.8}{5}} = \sqrt{7.36} \approx 2.71 $$
 
 🔹 **Réponse** : L'écart-type est **2.71**  
 
----
+
 
 ## 📝 Exercices  
 
@@ -100,7 +100,7 @@ $$ \sigma = \sqrt{\frac{36.8}{5}} = \sqrt{7.36} \approx 2.71 $$
 
 📌 **Exercice 3** : Deux classes ont des moyennes de **14** et **16**, mais l'écart-type de la première est **2.5** et celui de la seconde **4.8**. Quelle classe a des notes plus homogènes ?  
 
----
+
 
 ## 🎯 Applications de la Moyenne et de l'Écart-Type  
 
@@ -110,7 +110,7 @@ $$ \sigma = \sqrt{\frac{36.8}{5}} = \sqrt{7.36} \approx 2.71 $$
 🔹 **Science** 🔬 : Analyser des mesures expérimentales en physique ou chimie.  
 🔹 **Finance** 📈 : Étudier la volatilité des marchés boursiers.  
 
----
+
 
 ## 🎉 Conclusion  
 

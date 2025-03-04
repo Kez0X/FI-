@@ -4,7 +4,7 @@
 
 En **probabilités**, deux événements sont dits **indépendants** si la probabilité qu'ils se produisent ensemble est égale au produit de leurs probabilités individuelles. Cela signifie que la survenue de l'un des événements n'affecte en rien la probabilité de survenue de l'autre.
 
----
+
 
 ## 1️⃣ 📏 Définition des Événements Indépendants
 
@@ -19,7 +19,7 @@ $$ P(A \cap B) = P(A) \times P(B) $$
 
 Cela signifie que la probabilité de **l'intersection** des événements \( A \) et \( B \) est égale au produit des probabilités des événements pris séparément.
 
----
+
 
 ## 2️⃣ 🎲 Exemple d'Événements Indépendants
 
@@ -40,7 +40,7 @@ La probabilité que les deux événements se produisent (obtenir un 6 sur le pre
 
 $$ P(A \cap B) = P(A) \times P(B) = \frac{1}{6} \times \frac{1}{6} = \frac{1}{36} $$
 
----
+
 
 ### 📌 Exemple 2 : Tirage de cartes
 
@@ -59,7 +59,7 @@ La probabilité de tirer une carte rouge et une carte cœur est donc :
 
 $$ P(A \cap B) = P(A) \times P(B) = \frac{1}{2} \times \frac{1}{4} = \frac{1}{8} $$
 
----
+
 
 ## 3️⃣ 📏 Vérification des Événements Indépendants
 
@@ -67,7 +67,7 @@ Pour vérifier si deux événements sont indépendants, on peut **comparer** la 
 
 Si **les deux valeurs sont égales**, alors les événements sont indépendants. Sinon, les événements sont **dépendants**.
 
----
+
 
 ## 4️⃣ 📉 Événements Dépendants vs Indépendants
 
@@ -83,7 +83,7 @@ Si les événements sont **indépendants**, la probabilité de l'un n'affecte pa
 **Exemple :**  
 Le **lancer d'un dé** et le **tirage d'une carte** dans un paquet sont des événements indépendants. Le résultat du lancer de dé n'a aucune influence sur le résultat du tirage de la carte.
 
----
+
 
 ## 📝 Exercices
 
@@ -111,7 +111,7 @@ Soit :
 
 Vérifier si les événements \( A \) et \( B \) sont indépendants.
 
----
+
 
 ## 🎯 Applications des Événements Indépendants
 
@@ -120,7 +120,7 @@ Vérifier si les événements \( A \) et \( B \) sont indépendants.
 ✔ **Médecine** 🏥 : Estimation de la probabilité qu'un patient présente deux maladies indépendantes.  
 ✔ **Finance** 💰 : Évaluation des investissements indépendants et de leurs risques associés.  
 
----
+
 
 ## 🎉 Conclusion
 

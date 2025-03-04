@@ -18,7 +18,7 @@ Les bibliothèques externes sont cruciales pour plusieurs raisons :
 3. **Communauté et support** 🤝 : En utilisant des bibliothèques populaires, vous bénéficiez d'une large communauté d'utilisateurs et de développeurs qui peuvent vous aider à résoudre des problèmes et à améliorer votre code.
 4. **Accessibilité à des fonctionnalités avancées** 🌐 : Vous avez accès à des outils spécialisés que vous n'auriez pas nécessairement les ressources pour développer vous-même.
 
----
+
 
 ### 3. **Comment Installer des Bibliothèques Externes ?** 🛠️
 
@@ -65,7 +65,7 @@ Exemple :
 pip uninstall numpy
 ```
 
----
+
 
 ### 4. **Bibliothèques Python Populaires** 📚
 
@@ -179,7 +179,7 @@ Voici quelques bibliothèques externes courantes et très utilisées en Python, 
    pip install flask
    ```
 
----
+
 
 ### 5. **Utilisation des Bibliothèques Externes dans un Projet** 🔧
 
@@ -212,7 +212,7 @@ data['colonne'].plot(kind='bar')
 plt.show()
 ```
 
----
+
 
 ### 6. **Créer un Environnement Virtuel** 🧰
 
@@ -243,7 +243,7 @@ Une fois l'environnement activé, vous pouvez installer des bibliothèques avec 
 pip install numpy
 ```
 
----
+
 
 ### 7. **Conclusion** 🎉
 

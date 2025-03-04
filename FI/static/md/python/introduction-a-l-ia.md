@@ -4,7 +4,7 @@ L'Intelligence Artificielle (IA) est un domaine fascinant et en constante évolu
 
 Dans ce cours, nous allons explorer les bases de l'IA, ses applications, les types d'IA, ainsi que les outils et techniques utilisées pour créer des systèmes intelligents. Vous découvrirez également comment l'IA est utilisée dans des domaines variés et ce qu'elle peut accomplir.
 
----
+
 
 ## **1. Qu'est-ce que l'Intelligence Artificielle (IA) ?** 🧠
 
@@ -21,7 +21,7 @@ L'IA peut être définie comme l'ensemble des technologies et des méthodes qui 
 
 Il existe différents niveaux d'IA, allant des tâches les plus simples aux systèmes complexes capables de raisonner de manière autonome.
 
----
+
 
 ## **2. Historique de l'IA** 📜
 
@@ -42,7 +42,7 @@ L'IA est un domaine ancien, qui a connu des avancées significatives au fil des 
 - **Aujourd'hui : L'IA partout dans nos vies** 🌍
   - L'IA est présente dans de nombreuses applications comme les assistants vocaux (Siri, Alexa), la reconnaissance faciale, les voitures autonomes, la traduction automatique, etc.
 
----
+
 
 ## **3. Types d'Intelligence Artificielle** 🔍
 
@@ -69,7 +69,7 @@ L'IA forte est encore théorique et n'existe pas encore. Elle serait capable de 
 
 L'IA superintelligente serait une forme d'IA qui dépasserait l'intelligence humaine dans tous les domaines, y compris la créativité, la résolution de problèmes, la prise de décision, et même les émotions. Cela reste pour l'instant un concept futuriste.
 
----
+
 
 ## **4. Techniques de l'IA** 🧑‍🏫
 
@@ -100,7 +100,7 @@ Les réseaux de neurones artificiels sont inspirés des connexions synaptiques d
 
 Le NLP permet aux machines de comprendre, d'interpréter et de générer du langage humain. Cela inclut la traduction automatique, l'analyse de sentiment, et la compréhension des commandes vocales.
 
----
+
 
 ## **5. Applications de l'IA** 🌍
 
@@ -128,7 +128,7 @@ Les chatbots (comme ceux utilisés par des entreprises pour répondre à des dem
 
 Les systèmes d'IA peuvent prédire les tendances boursières, détecter des fraudes, et optimiser les investissements.
 
----
+
 
 ## **6. Défis et Limites de l'IA** ⚠️
 
@@ -144,7 +144,7 @@ De nombreux systèmes d'IA (en particulier ceux utilisant l'apprentissage profon
 
 Si l'IA forte, capable de raisonner comme un humain, devient un jour réalité, cela soulèvera des questions sur la **conscience artificielle**, la **responsabilité** et la **souveraineté** des machines.
 
----
+
 
 ## **7. Conclusion** 🎉
 
@@ -154,7 +154,7 @@ Cependant, l'IA soulève également des questions éthiques, sociales et techniq
 
  à comprendre comment l'IA peut être utilisée de manière responsable et bénéfique pour la société.
 
----
+
 
 ### **Ressources pour aller plus loin** 📚
 

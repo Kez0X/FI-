@@ -25,7 +25,7 @@ Le backend prend en charge :
 - **L’interaction avec des bases de données** (MySQL, PostgreSQL, SQLite).
 - **La gestion de la logique applicative** (authentification, gestion des sessions, etc.).
 
----
+
 
 ### 2. **Les Technologies Web Fondamentales** 🌍
 
@@ -54,7 +54,7 @@ Quelques serveurs populaires :
 - **Nginx**
 - **Gunicorn** (souvent utilisé avec Python)
 
----
+
 
 ### 3. **Le Rôle de Python dans le Développement Web** 🐍
 
@@ -64,7 +64,7 @@ Python joue un rôle clé dans le **backend** du développement web, où il est 
 
 Un framework web est un ensemble de bibliothèques et de modules permettant de simplifier le développement web en Python. Les frameworks les plus populaires sont **Flask** et **Django**.
 
----
+
 
 ### 4. **Django : Framework Web Complet** 🔥
 
@@ -116,7 +116,7 @@ pip install django
 - **Admin automatique** : Django génère automatiquement une interface d'administration pour gérer le contenu.
 - **Moteur de template** : Permet de générer des pages HTML dynamiques.
 
----
+
 
 ### 5. **Flask : Framework Web Minimaliste** 🧰
 
@@ -154,7 +154,7 @@ if __name__ == '__main__':
 - **Moteur de template Jinja2** : Utilisé pour générer des pages HTML dynamiques.
 - **Extensible** : Vous pouvez ajouter des extensions pour gérer des fonctionnalités comme l'authentification, les formulaires, etc.
 
----
+
 
 ### 6. **Base de Données et Django/Flask** 🗄️
 
@@ -199,7 +199,7 @@ if __name__ == '__main__':
     app.run(debug=True)
 ```
 
----
+
 
 ### 7. **Déploiement d'une Application Web** 🚀
 
@@ -217,7 +217,7 @@ Les options populaires pour héberger des applications Python incluent :
 - **DigitalOcean** : Fournisseur de serveurs privés pour déployer des applications.
 - **AWS (Amazon Web Services)** : Plateforme de cloud computing pour des déploiements plus complexes.
 
----
+
 
 ### 8. **Conclusion** 🎉
 
@@ -230,7 +230,7 @@ Avec un bon choix de framework et une bonne compréhension des concepts du déve
 
 Happy coding! 😊
 
----
+
 
 ## **Développement Web avec Python : Déploiement d'un Mini-Site Web**
 
@@ -238,7 +238,7 @@ Happy coding! 😊
 
 Le développement web avec Python est une compétence très prisée, notamment grâce à des frameworks comme **Flask** (pour des projets plus légers) et **Django** (pour des projets plus complexes). Flask est souvent choisi pour sa simplicité et sa flexibilité. Dans ce tutoriel, nous allons créer un **mini-site web** avec Flask et le déployer sur **Heroku**, une plateforme de cloud computing facile à utiliser.
 
----
+
 
 ### 2. **Prérequis** 🛠️
 
@@ -261,7 +261,7 @@ Avant de commencer, vous devez avoir les éléments suivants installés sur votr
 
 - **Heroku CLI** : Outil en ligne de commande pour déployer votre application sur Heroku. Vous pouvez l'installer à partir de [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli).
 
----
+
 
 ### 3. **Créer un Mini-Site Web avec Flask** 🏗️
 
@@ -351,7 +351,7 @@ Vous devriez voir quelque chose comme ça :
 
 Ouvrez votre navigateur et allez à l'URL `http://127.0.0.1:5000/`. Vous devriez voir la page HTML que vous avez créée !
 
----
+
 
 ### 4. **Préparer le Déploiement sur Heroku** 🌍
 
@@ -402,7 +402,7 @@ Heroku utilise Git pour gérer le déploiement de votre application. Initialisez
    git commit -m "Initial commit"
    ```
 
----
+
 
 ### 5. **Déployer sur Heroku** 🚀
 
@@ -458,7 +458,7 @@ https://mon-mini-site.herokuapp.com
 
 Vous verrez le même site que localement, mais maintenant accessible sur Internet ! 🎉
 
----
+
 
 ### 6. **Améliorer votre Application (Facultatif)** 🚀
 
@@ -468,7 +468,7 @@ Vous pouvez maintenant améliorer votre mini-site web en ajoutant des fonctionna
 - **Base de données** : Ajoutez une base de données comme SQLite ou PostgreSQL pour stocker des informations (par exemple, des articles, des utilisateurs).
 - **CSS/JS** : Ajoutez des fichiers CSS pour personnaliser l'apparence de votre site ou du JavaScript pour ajouter des fonctionnalités interactives.
 
----
+
 
 ### 7. **Conclusion** 🏁
 

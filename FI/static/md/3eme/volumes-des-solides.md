@@ -6,7 +6,7 @@ Le **volume** d'un solide est la mesure de l'espace qu'il occupe. Il est exprim�
 
 Il existe plusieurs types de solides géométriques, chacun ayant sa propre formule pour calculer son volume.  
 
----
+
 
 ## 📏 Formules des Volumes des Solides  
 
@@ -22,7 +22,7 @@ Un **cube** est un solide dont toutes les arêtes sont égales.
 Si un cube a une arête de **5 cm**, son volume est :  
 $$ V_{\text{cube}} = 5^3 = 125 \, \text{cm}^3 $$  
 
----
+
 
 ### 📦 2. Volume du Parallélépipède Rectangle  
 
@@ -35,7 +35,7 @@ Un **parallélépipède rectangle** a une longueur **l**, une largeur **L**, et 
 Si **l = 8 cm**, **L = 4 cm** et **h = 5 cm**, alors :  
 $$ V_{\text{pavé}} = 8 \times 4 \times 5 = 160 \, \text{cm}^3 $$  
 
----
+
 
 ### 🛢️ 3. Volume du Cylindre  
 
@@ -48,7 +48,7 @@ Un **cylindre** est un solide avec deux bases circulaires de rayon **r** et une 
 Si **r = 3 cm** et **h = 10 cm** :  
 $$ V_{\text{cylindre}} = \pi \times 3^2 \times 10 = \pi \times 9 \times 10 = 90\pi \approx 282.74 \, \text{cm}^3 $$  
 
----
+
 
 ### 🌐 4. Volume de la Sphère  
 
@@ -61,7 +61,7 @@ Une **sphère** est un solide parfaitement rond dont tous les points sont équid
 Si **r = 6 cm** :  
 $$ V_{\text{sphère}} = \frac{4}{3} \times \pi \times 6^3 = \frac{4}{3} \times \pi \times 216 = \frac{864}{3} \pi \approx 904.32 \, \text{cm}^3 $$  
 
----
+
 
 ### ⛰️ 5. Volume de la Pyramide  
 
@@ -75,7 +75,7 @@ Si la base est un carré de **côté 9 cm** et **h = 12 cm** :
 $$ A_{\text{base}} = 9^2 = 81 \, \text{cm}^2 $$  
 $$ V_{\text{pyramide}} = \frac{1}{3} \times 81 \times 12 = 324 \, \text{cm}^3 $$  
 
----
+
 
 ### 🍦 6. Volume du Cône  
 
@@ -90,7 +90,7 @@ $$ V_{\text{cône}} = \frac{1}{3} \times \pi \times 4^2 \times 9 $$
 $$ = \frac{1}{3} \times \pi \times 16 \times 9 $$  
 $$ = \frac{144}{3} \pi = 48\pi \approx 150.8 \, \text{cm}^3 $$  
 
----
+
 
 ## 📝 Exercices  
 
@@ -106,7 +106,7 @@ $$ = \frac{144}{3} \pi = 48\pi \approx 150.8 \, \text{cm}^3 $$
 
 6️⃣ Un cône a un **r = 6 cm** et **h = 14 cm**. Trouver son volume.  
 
----
+
 
 ## 🎯 Applications des Volumes des Solides  
 
@@ -118,7 +118,7 @@ $$ = \frac{144}{3} \pi = 48\pi \approx 150.8 \, \text{cm}^3 $$
 
 🔹 **Astronomie** 🌍 : Calcul du volume des planètes et étoiles.  
 
----
+
 
 ## 🎉 Conclusion  
 

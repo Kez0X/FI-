@@ -8,7 +8,7 @@ $$ f(x) = ax + b $$
 
 Le but de cette leçon est de comprendre comment tracer le graphique d'une fonction affine à partir de son équation, d'interpréter la signification de ses éléments et d'analyser sa pente et son ordonnée à l'origine.
 
----
+
 
 ## 1️⃣ 📏 Fonction Affine : Rappel
 
@@ -27,7 +27,7 @@ $$ f(x) = ax + b $$
 
 Le graphique de cette fonction est donc une **droite**, et sa position et son inclinaison dépendent des valeurs de \( a \) et \( b \).
 
----
+
 
 ## 2️⃣ 🎲 Tracer le Graphique d'une Fonction Affine
 
@@ -56,7 +56,7 @@ Considérons la fonction affine \( f(x) = 2x + 3 \).
 
 La droite est **croissante** car \( a > 0 \).
 
----
+
 
 ## 3️⃣ 📊 Interprétation du Graphique
 
@@ -70,7 +70,7 @@ La **pente** \( a \) indique si la droite est croissante, décroissante ou horiz
 ### 📌 Ordonnée à l'origine :
 L'**ordonnée à l'origine** \( b \) représente l'endroit où la droite coupe l'axe des ordonnées. Cela signifie que pour \( x = 0 \), la valeur de \( f(x) \) est \( b \).
 
----
+
 
 ## 4️⃣ 📏 Exemples de Graphiques de Fonctions Affines
 
@@ -103,7 +103,7 @@ Si on calcule quelques valeurs :
 
 Le graphique sera une droite décroissante passant par les points \( (0, 1) \), \( (1, -1) \), et \( (2, -3) \).
 
----
+
 
 ## 5️⃣ 🖋 Tracer une Fonction Affine : Méthode Résumée
 
@@ -116,7 +116,7 @@ Le graphique sera une droite décroissante passant par les points \( (0, 1) \), 
    - Si $$\( a < 0 \)$$, la droite est décroissante.
    - Si $$\( a = 0 \)$$, la droite est horizontale.
 
----
+
 
 ## 📝 Exercices
 
@@ -135,7 +135,7 @@ Donne l'équation de la fonction affine dont le graphique passe par les points \
 - Trouve l'ordonnée à l'origine \( b \).
 - Trace la droite correspondant à cette fonction affine.
 
----
+
 
 ## 🎯 Conclusion
 

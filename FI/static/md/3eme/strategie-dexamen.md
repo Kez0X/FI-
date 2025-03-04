@@ -18,7 +18,7 @@
    - **Calculs et algèbre** (20-25 minutes)
    - **Révisions et vérification** (10-15 minutes)
 
----
+
 
 ## 🧠 1. **Lecture de l'énoncé**
 La **lecture de l'énoncé** est cruciale pour comprendre le problème et identifier les données importantes. Voici quelques conseils pour cette étape :
@@ -27,7 +27,7 @@ La **lecture de l'énoncé** est cruciale pour comprendre le problème et identi
 - **Surlignez** les données importantes et ce que l'on vous demande. Par exemple, dans un problème géométrique, surlignez les longueurs, les angles, les relations entre les segments, etc.
 - **Comprenez bien ce qu'on vous demande** : Parfois, une question peut être piège si vous ne l'avez pas bien comprise. Si vous avez un doute, relisez-la deux fois avant de commencer à résoudre.
   
----
+
 
 ## 🕒 2. **Planification de votre temps pendant l'examen**
 Gérer votre **temps de manière stratégique** est essentiel pour ne pas vous retrouver pressé à la fin de l'examen. 
@@ -45,7 +45,7 @@ Voici une méthode pour bien gérer votre temps :
    - Prenez toujours quelques minutes pour **relire** vos réponses.
    - **Vérifiez les calculs** et les résultats pour éviter les erreurs bêtes.
 
----
+
 
 ## 🧮 3. **Stratégie pour les problèmes mathématiques**
 Les problèmes en mathématiques peuvent comporter plusieurs questions et plusieurs étapes. Voici comment les aborder :
@@ -66,7 +66,7 @@ Les problèmes en mathématiques peuvent comporter plusieurs questions et plusie
 ### D. **Restez méthodique** :
 - **Formulez une stratégie** avant de commencer. Par exemple, pour un problème de calculs de volumes, identifiez d'abord les formules à utiliser (cylindre, cône, sphère, etc.).
 
----
+
 
 ## 🧩 4. **Répartition des questions**
 Les questions sont généralement structurées du plus simple au plus complexe. Voici quelques conseils pour gérer chaque type de question :
@@ -84,7 +84,7 @@ Les questions sont généralement structurées du plus simple au plus complexe. 
 - Si vous êtes bloqué, **repérez les données données** et relisez l'énoncé pour vous assurer que vous n'avez pas oublié une donnée essentielle.
 - Si vous êtes toujours bloqué, **passez à la question suivante** et revenez-y plus tard avec un esprit plus frais.
 
----
+
 
 ## 💡 5. **Vérification**
 La **vérification** est essentielle pour garantir que vous n'avez pas commis d'erreur bête. Voici une méthode simple pour vérifier vos réponses :
@@ -93,7 +93,7 @@ La **vérification** est essentielle pour garantir que vous n'avez pas commis d'
 - **Vérifiez vos calculs** : Si vous avez effectué des calculs complexes, refaites-les rapidement pour vérifier qu'ils sont corrects.
 - **Vérifiez vos unités** : Surtout en géométrie ou en statistiques, assurez-vous que vos résultats sont bien exprimés avec les bonnes unités (cm, m, %, etc.).
 
----
+
 
 ## 🧑‍🏫 6. **Comment gérer le stress ?**
 Le stress peut nuire à votre concentration pendant l'examen. Voici quelques conseils pour le gérer :
@@ -102,7 +102,7 @@ Le stress peut nuire à votre concentration pendant l'examen. Voici quelques con
 - Si vous sentez que le stress monte pendant l'épreuve, **faites une petite pause** de quelques secondes pour reprendre votre calme.
 - **Pensez positif** : Même si une question est difficile, dites-vous que vous pouvez la résoudre avec patience.
 
----
+
 
 ## 📚 Conclusion : Optimisez votre réussite !
 

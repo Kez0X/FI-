@@ -5,7 +5,7 @@
 Les **représentations graphiques** permettent de visualiser des données ou des fonctions sous forme de **courbes, diagrammes ou graphiques**.  
 Elles facilitent l'analyse des tendances et des relations entre les variables.  
 
----
+
 
 ## 1️⃣ 📈 Types de Représentations Graphiques  
 
@@ -16,16 +16,16 @@ Elles facilitent l'analyse des tendances et des relations entre les variables.
 **Exemple** : Nombre d'élèves ayant obtenu une note donnée.  
 
 | Note  | 8 | 10 | 12 | 14 | 16 |
-|-------|---|----|----|----|----|
+|-||-|-|-|-|
 | Effectif | 3 | 5  | 7  | 4  | 2  |
 
----
+
 
 ### 📌 Histogramme  
 🔹 Utilisé pour **des données continues** (exemple : répartition des tailles en cm).  
 🔹 Ressemble à un diagramme en bâtons, mais les colonnes sont **collées**.  
 
----
+
 
 ### 📌 Courbe de Fonction  
 🔹 Permet de représenter une **fonction mathématique** \( f(x) \).  
@@ -33,19 +33,19 @@ Elles facilitent l'analyse des tendances et des relations entre les variables.
 
 Exemple : **Représentation de la fonction \( f(x) = x^2 \)**  
 
----
+
 
 ## 2️⃣ 📌 Tableau de Valeurs et Tracé d'une Fonction  
 
 Avant de tracer une **courbe**, on établit un **tableau de valeurs** :  
 
 | \( x \)   | -2  | -1  | 0  | 1  | 2  |
-|-----------|-----|-----|----|----|----|
+|--|--|--|-|-|-|
 | \( f(x) = x^2 \) | 4   | 1   | 0  | 1  | 4  |
 
 Puis, on place ces points sur un repère et on **trace la courbe** ! 🖊️  
 
----
+
 
 ## 3️⃣ 📉 Lecture d’un Graphique  
 
@@ -57,7 +57,7 @@ Puis, on place ces points sur un repère et on **trace la courbe** ! 🖊️
    - Une fonction s'annule quand \( f(x) = 0 \).  
    - C’est l’intersection de la courbe avec l’axe des abscisses.  
 
----
+
 
 ## 📝 Exercices  
 
@@ -67,7 +67,7 @@ Puis, on place ces points sur un repère et on **trace la courbe** ! 🖊️
 
 📌 **Exercice 3** : Comparer un diagramme en bâtons et un histogramme, et dire quand utiliser chaque type.  
 
----
+
 
 ## 🎯 Applications des Graphiques  
 
@@ -76,7 +76,7 @@ Puis, on place ces points sur un repère et on **trace la courbe** ! 🖊️
 ✔️ **Climatologie** 🌦️ : Températures moyennes, précipitations annuelles.  
 ✔️ **Finance** 📈 : Évolution du cours de la bourse.  
 
----
+
 
 ## 🎉 Conclusion  
 

@@ -4,7 +4,7 @@ La manipulation des fichiers est une tâche courante en programmation. Python of
 
 Nous allons explorer comment ouvrir, lire, écrire et fermer des fichiers en Python. Nous verrons aussi comment manipuler le contenu des fichiers avec différentes méthodes.
 
----
+
 
 ## 1. Ouvrir un fichier 📖
 
@@ -34,7 +34,7 @@ fichier = open("exemple.txt", "r")
 
 Si le fichier existe, il est ouvert en mode lecture. Sinon, une erreur sera levée.
 
----
+
 
 ## 2. Lire un fichier 📚
 
@@ -73,7 +73,7 @@ fichier.close()
 
 - La méthode **`readlines()`** lit le fichier ligne par ligne et retourne une liste où chaque élément est une ligne du fichier.
 
----
+
 
 ## 3. Écrire dans un fichier ✍️
 
@@ -100,7 +100,7 @@ fichier.close()
 
 - La méthode **`write()`** en mode `"a"` ajoute du texte à la fin du fichier sans le supprimer.
 
----
+
 
 ## 4. Fermer un fichier 🔒
 
@@ -114,7 +114,7 @@ fichier.close()  # Fermeture du fichier
 
 **Important :** Si tu oublies de fermer un fichier, cela peut entraîner des problèmes de gestion de mémoire et de verrouillage du fichier.
 
----
+
 
 ## 5. Utiliser le gestionnaire de contexte `with` ⏳
 
@@ -130,7 +130,7 @@ with open("exemple.txt", "r") as fichier:
 
 - Le bloc **`with`** ouvre le fichier et le ferme automatiquement à la fin de l'indentation, ce qui est plus sûr et plus propre.
 
----
+
 
 ## 6. Manipulation de fichiers binaires 📸
 
@@ -153,7 +153,7 @@ with open("copie_image.jpg", "wb") as fichier:
     fichier.write(contenu_binaire)  # Copie les données binaires dans un nouveau fichier
 ```
 
----
+
 
 ## 7. Gestion des erreurs lors de la manipulation des fichiers ⚠️
 
@@ -174,7 +174,7 @@ except IOError:
 - **`FileNotFoundError`** : Lève une erreur si le fichier spécifié n'existe pas.
 - **`IOError`** : Lève une erreur pour des problèmes d'entrée/sortie, comme un fichier qui ne peut pas être ouvert.
 
----
+
 
 ## 8. Conclusion 🏁
 

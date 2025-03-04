@@ -16,7 +16,7 @@ $$ 2x - 3 = 5x + 9 $$
 3. Divisez les deux côtés par \( -3 \) :
    $$ x = -4 $$
 
----
+
 
 ## 2️⃣ Exercice : Utilisation du théorème de Pythagore
 
@@ -39,7 +39,7 @@ $$ c = \sqrt{100} = 10 $$
 
 La longueur de l'hypoténuse est donc **10 cm**.
 
----
+
 
 ## 3️⃣ Exercice : Fonction affine
 
@@ -70,7 +70,7 @@ Donc, l'ordonnée à l'origine est \( -2 \).
    
 Ensuite, on relie ces points pour dessiner la droite. La pente est \( 3 \), ce qui signifie que pour chaque unité que \( x \) augmente, \( y \) augmente de 3 unités.
 
----
+
 
 ## 4️⃣ Exercice : Problème sur les proportions
 
@@ -93,7 +93,7 @@ $$ \frac{2}{5} \times 100 = 40\% $$
 
 Donc, la proportion de filles dans la classe est **\( \frac{2}{5} \)** ou **40 %**.
 
----
+
 
 ## 5️⃣ Exercice : Probabilités
 
@@ -112,7 +112,7 @@ $$ P(\text{rouge}) = \frac{4}{12} = \frac{1}{3} $$
 
 La probabilité d'obtenir une boule rouge est **\( \frac{1}{3} \)**.
 
----
+
 
 ## 6️⃣ Exercice : Calcul de moyenne et écart-type
 
@@ -146,7 +146,7 @@ $$ \sigma = \sqrt{7,36} \approx 2,71 $$
 
 Donc, l'écart-type des notes est **2,71**.
 
----
+
 
 ## 7️⃣ Exercice : Thales
 
@@ -169,7 +169,7 @@ $$ \frac{BD}{DC} = \frac{3}{9} = \frac{1}{3} $$
 
 Les deux rapports ne sont pas égaux, donc les droites \( (AB) \) et \( (CD) \) **ne sont pas parallèles**.
 
----
+
 
 ## 🎯 Conclusion
 

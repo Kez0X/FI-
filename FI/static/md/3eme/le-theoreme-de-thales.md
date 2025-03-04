@@ -12,7 +12,7 @@ Le **théorème de Thalès** est un théorème fondamental en géométrie, souve
 
 En d'autres termes, si on a deux triangles qui partagent un côté commun et que deux de leurs côtés sont parallèles, alors les rapports des longueurs des côtés correspondants sont égaux.
 
----
+
 
 ## Formulation du Théorème de Thalès 📏
 
@@ -26,7 +26,7 @@ $$
 
 Autrement dit, les rapports des longueurs des segments sur les côtés sont égaux.
 
----
+
 
 ## Conditions du Théorème de Thalès 🔑
 
@@ -36,7 +36,7 @@ Le théorème de Thalès ne peut être appliqué que dans certaines conditions :
    
 Lorsque ces conditions sont remplies, le théorème de Thalès permet de calculer des longueurs inconnues dans un triangle.
 
----
+
 
 ## Exemple de Théorème de Thalès 🔍
 
@@ -69,7 +69,7 @@ $$
 ### Conclusion :
 Les segments sont proportionnels, et on obtient les valeurs de \( DB \) et \( EC \). ✅
 
----
+
 
 ## Applications du Théorème de Thalès 🛠️
 
@@ -87,7 +87,7 @@ Imaginons que tu veuilles mesurer la hauteur d'un arbre, mais que tu ne peux pas
 
 En appliquant le théorème de Thalès avec les triangles formés par l'arbre et son ombre, et par toi et ton ombre, tu peux établir une proportionnalité pour trouver la hauteur de l'arbre.
 
----
+
 
 ## Exercices pour S'entraîner ✍️
 
@@ -109,7 +109,7 @@ Un arbre de 15 mètres de hauteur projette une ombre de 10 mètres. Une petite �
 
 Dans un triangle \( ABC \), une droite parallèle à \( BC \) coupe \( AB \) en \( D \) et \( AC \) en \( E \). Sachant que \( AB = 14 \) cm et \( AC = 18 \) cm, trace cette droite parallèle et vérifie la proportionnalité des segments.
 
----
+
 
 ## Conclusion 🎉
 

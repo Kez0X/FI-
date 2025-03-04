@@ -10,7 +10,7 @@ Elle peut être utilisée pour modéliser des situations réelles où une quanti
 
 Dans cette leçon, nous allons explorer différentes **applications** d'une fonction affine dans des contextes concrets.
 
----
+
 
 ## 1️⃣ 💡 Qu'est-ce qu'une application d'une fonction affine ?
 
@@ -20,7 +20,7 @@ Par exemple :
 - **Modélisation d'un coût en fonction de la quantité** : Le coût d'achat d'un article, qui comprend un coût fixe et un coût variable par article, peut être représenté par une fonction affine.
 - **Vitesse constante** : Si un objet se déplace à une vitesse constante, sa position à un instant donné peut être modélisée par une fonction affine.
   
----
+
 
 ## 2️⃣ 🏷️ Exemple d'application : Calcul du coût total d'achat
 
@@ -43,7 +43,7 @@ $$ C(10) = 20 \times 10 + 50 = 200 + 50 = 250 \, \text{€} $$
 
 Ainsi, en fonction du nombre d'articles achetés, on peut calculer le coût total en utilisant la fonction affine.
 
----
+
 
 ## 3️⃣ 🏃‍♂️ Exemple d'application : Déplacement à vitesse constante
 
@@ -67,7 +67,7 @@ $$ d(10) = 30 \times 10 = 300 \, \text{m} $$
 
 Ainsi, la distance parcourue augmente linéairement avec le temps, et peut être calculée facilement avec une fonction affine.
 
----
+
 
 ## 4️⃣ 🔄 Application : Modélisation d'une température au cours de la journée
 
@@ -116,7 +116,7 @@ $$ T(t) = 2t $$
 - La température augmente de 2°C chaque heure.
 - À \( t = 0 \) (c'est-à-dire à minuit), la température serait de \( T(0) = 0 \, \text{°C} \).
 
----
+
 
 ## 5️⃣ 📝 Exercices
 
@@ -129,7 +129,7 @@ Un train se déplace à une vitesse constante de 60 km/h. Écrivez la fonction a
 ### 📌 Exercice 3 : Température au cours de la journée
 Une ville enregistre une température de 15°C à 8h et de 30°C à 16h. Déterminez la fonction affine qui modélise l'évolution de la température, puis calculez la température à 12h.
 
----
+
 
 ## 🎯 Conclusion
 

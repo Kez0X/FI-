@@ -4,7 +4,6 @@ Les **conditions** sont des instructions qui permettent de tester si une certain
 
 En Python, les conditions sont définies principalement avec l'instruction **`if`**, mais tu peux aussi utiliser **`elif`** (else if) et **`else`** pour créer des chaînes d'alternatives.
 
----
 
 ## 1. La structure de base des conditions en Python 🏗️
 
@@ -35,7 +34,6 @@ Tu es majeur !
 
 Dans cet exemple, si la variable `age` est supérieure ou égale à 18, le message "Tu es majeur !" sera affiché.
 
----
 
 ## 2. L'instruction `else` - Si la condition est fausse ⚠️
 
@@ -68,7 +66,6 @@ Tu es mineur !
 
 Ici, comme l'âge est inférieur à 18, le programme exécute le bloc de code dans `else`, affichant "Tu es mineur !".
 
----
 
 ## 3. L'instruction `elif` - Tester plusieurs conditions 🔄
 
@@ -108,7 +105,6 @@ Dans cet exemple :
 - Si l'âge est exactement égal à 18, "Tu viens juste d'avoir 18 ans !" est affiché.
 - Sinon, c'est que l'âge est supérieur à 18, et "Tu es majeur !" est affiché.
 
----
 
 ## 4. Les Comparateurs (Opérateurs de comparaison) 🔍
 
@@ -140,7 +136,6 @@ Résultat :
 x est plus grand que y
 ```
 
----
 
 ## 5. Les Booléens et les Conditions Composées 📊
 
@@ -202,7 +197,6 @@ Résultat :
 a est vrai
 ```
 
----
 
 ## 6. Conditions sur des objets et des collections 📋
 
@@ -256,7 +250,6 @@ Résultat :
 L'âge est une clé dans le dictionnaire.
 ```
 
----
 
 ## 7. Conclusion 🚀
 

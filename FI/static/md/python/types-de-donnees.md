@@ -177,7 +177,7 @@ Le type spécial **None** est utilisé pour représenter l'absence de valeur ou 
 resultat = None  # La variable "resultat" n'a pas encore de valeur
 ```
 
----
+
 
 ## 3. Résumé des principaux types de données en Python 📚
 

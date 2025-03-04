@@ -2,7 +2,7 @@
 
 En Python, un **module** est simplement un fichier contenant du code Python, c'est-à-dire des définitions de variables, de fonctions, de classes, etc. Un **package** est un ensemble de modules regroupés sous un même dossier. L'utilisation de modules et de packages permet d'organiser ton code de manière plus claire et modulaire, et facilite sa réutilisation dans d'autres projets.
 
----
+
 
 ## 1. Qu'est-ce qu'un module ? 📜
 
@@ -45,7 +45,7 @@ print("Résultat soustraction :", resultat_soustraction)  # Résultat soustracti
 
 Ici, dans **`main.py`**, nous avons importé le module **`math_operations`** et utilisé ses fonctions.
 
----
+
 
 ## 2. Les types d'importation de modules 🧳
 
@@ -83,7 +83,7 @@ Ici, nous avons donné à **`math_operations`** un alias **`mo`**. Cela te perme
 resultat_addition = mo.addition(5, 3)
 ```
 
----
+
 
 ## 3. Qu'est-ce qu'un package ? 📚
 
@@ -162,7 +162,7 @@ Le fichier **`__init__.py`** permet de marquer un répertoire comme étant un pa
 
 Tu peux aussi l'utiliser pour importer certaines fonctions ou modules par défaut, ce qui facilite l'importation pour les utilisateurs du package.
 
----
+
 
 ## 4. Recherche de modules et packages 📂
 
@@ -177,7 +177,7 @@ sys.path.append('/chemin/vers/mon/module')
 
 Cela permet de chercher des modules dans le répertoire spécifié.
 
----
+
 
 ## 5. Les modules standard de Python 📜
 
@@ -201,7 +201,7 @@ resultat = math.sqrt(16)
 print(resultat)  # 4.0
 ```
 
----
+
 
 ## 6. Installer des packages externes avec `pip` ⚙️
 
@@ -222,7 +222,7 @@ array = np.array([1, 2, 3])
 print(array)  # [1 2 3]
 ```
 
----
+
 
 ## 7. Conclusion 🏁
 

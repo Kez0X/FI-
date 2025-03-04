@@ -82,7 +82,6 @@ b = 3
 resultat = a ** b  # 2 ** 3 = 8
 ```
 
----
 
 ## 2. Les opérateurs de comparaison 🔍
 
@@ -154,7 +153,6 @@ b = 10
 resultat = a <= b  # Vrai car 5 est plus petit que 10
 ```
 
----
 
 ## 3. Les opérateurs logiques 🔐
 
@@ -192,7 +190,6 @@ a = 10
 resultat = not (a < 5)  # True car a < 5 est faux, donc not le rend vrai
 ```
 
----
 
 ## 4. Les opérateurs d'affectation 🔄
 
@@ -247,7 +244,6 @@ a = 10
 a /= 2  # Equivalent à a = a / 2, donc a devient 5.0
 ```
 
----
 
 ## 5. Les opérateurs d'identité et d'appartenance 🔑
 
@@ -272,7 +268,6 @@ a = [1, 2, 3]
 resultat = 2 in a  # True car 2 est dans la liste
 ```
 
----
 
 ## Conclusion 🎯
 

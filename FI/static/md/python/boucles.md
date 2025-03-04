@@ -10,7 +10,6 @@ En Python, tu as principalement deux types de boucles :
 
 Nous allons nous concentrer sur la boucle `for`, qui est plus couramment utilisée dans Python, et examiner tous ses cas d'utilisation possibles.
 
----
 
 ## 1. La Boucle `for` 🌐
 
@@ -165,7 +164,6 @@ Résultat :
 ```
 (Note : les ensembles étant non ordonnés, l'ordre des éléments peut varier.)
 
----
 
 ## 2. La Boucle `while` ⏳
 
@@ -195,7 +193,6 @@ Résultat :
 
 La condition est vérifiée avant chaque itération. Si le compteur devient supérieur ou égal à 5, la boucle se termine.
 
----
 
 ## 3. Le Contrôle de Flux dans les Boucles 🚦
 
@@ -260,8 +257,6 @@ Résultat :
 4
 ```
 Ici, la boucle se comporte comme si rien n'était fait lorsque `i` vaut 3.
-
----
 
 ## Conclusion 🚀
 

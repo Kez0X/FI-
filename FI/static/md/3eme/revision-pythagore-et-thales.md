@@ -4,7 +4,7 @@
 
 Le **théorème de Pythagore** et le **théorème de Thalès** sont des outils puissants en géométrie, permettant de résoudre de nombreux problèmes dans des triangles. Nous allons revoir ces deux théorèmes, leur démonstration et leurs applications avec des exemples et des exercices.
 
----
+
 
 ## 1️⃣ 🎯 Le Théorème de Pythagore
 
@@ -45,7 +45,7 @@ Le théorème de Pythagore est utilisé pour :
 - Calculer la longueur d'un côté d'un triangle rectangle quand on connaît les deux autres côtés.
 - Vérifier si un triangle est rectangle en vérifiant si l'égalité \( AB^2 + AC^2 = BC^2 \) est vérifiée.
 
----
+
 
 ## 2️⃣ 🎯 Le Théorème de Thalès
 
@@ -81,16 +81,16 @@ Le théorème de Thalès permet de :
 - Déterminer des distances dans des configurations de droites parallèles et transversales.
 - Vérifier si deux triangles sont similaires lorsque les rapports des côtés sont égaux.
 
----
+
 
 ## 3️⃣ 🔄 Comparaison entre le théorème de Pythagore et le théorème de Thalès
 
 | **Théorème**           | **Applications**                                     | **Condition**                               |
-|------------------------|------------------------------------------------------|---------------------------------------------|
+||||
 | **Pythagore**           | Relier les côtés d'un triangle rectangle.            | Triangle rectangle avec un angle droit.    |
 | **Thalès**              | Proportionnalité des segments dans des configurations de droites parallèles. | Deux droites parallèles coupées par des transversales. |
 
----
+
 
 ## 4️⃣ 📝 Exercices
 
@@ -106,7 +106,7 @@ Dans un quadrilatère où les droites \( \ell_1 \) et \( \ell_2 \) sont parallè
 ### 📌 Exercice 4 : Application du théorème de Thalès
 Dans un quadrilatère avec les droites parallèles \( \ell_1 \) et \( \ell_2 \), les longueurs \( AB = 4 \) cm, \( BC = 8 \) cm et \( AD = 10 \) cm sont données. Trouve la longueur de \( CD \).
 
----
+
 
 ## 🎯 Conclusion
 

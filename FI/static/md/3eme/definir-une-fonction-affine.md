@@ -4,7 +4,7 @@
 
 Une **fonction affine** est une fonction mathématique très utilisée en algèbre, particulièrement en géométrie et en analyse des variations. Elle décrit une relation linéaire entre une variable indépendante \( x \) et une variable dépendante \( f(x) \), où la courbe représentant cette fonction est une **droite**.
 
----
+
 
 ## 1️⃣ 📏 Définition d'une Fonction Affine
 
@@ -18,7 +18,7 @@ $$ f(x) = ax + b $$
 - **\( x \)** : La variable indépendante (ou abscisse), généralement sur l'axe horizontal.
 - **\( f(x) \)** : La variable dépendante (ou ordonnée), généralement sur l'axe vertical.
 
----
+
 
 ## 2️⃣ 🎲 Interprétation Géométrique
 
@@ -38,7 +38,7 @@ $$ f(x) = 2x + 3 $$
 
 La courbe correspondante est une droite inclinée, passant par le point \( (0, 3) \).
 
----
+
 
 ## 3️⃣ 🖋 Calcul de l'Image d'un Nombre
 
@@ -52,7 +52,7 @@ $$ f(4) = 2 \times 4 + 3 = 8 + 3 = 11 $$
 
 Donc, l'image de \( 4 \) par cette fonction est \( 11 \).
 
----
+
 
 ## 4️⃣ 📏 Trouver l'Expression d'une Fonction Affine à partir de Deux Points
 
@@ -96,7 +96,7 @@ Trouvons l'expression de la fonction affine passant par les points \( A(1, 4) \)
 
 La fonction affine qui passe par \( A(1, 4) \) et \( B(3, 10) \) est donc $$\( f(x) = 3x + 1 \)$$.
 
----
+
 
 ## 5️⃣ 📊 Applications des Fonctions Affines
 
@@ -107,7 +107,7 @@ Les fonctions affines sont utilisées dans de nombreux domaines, comme :
 - **Géométrie** 🧮 : Calculer l'équation de droites passant par des points donnés.
 - **Finance** 💸 : Modélisation de la relation entre investissement initial et gains sur une période donnée.
 
----
+
 
 ## 📝 Exercices
 
@@ -120,7 +120,7 @@ Soit \( f(x) = 4x - 2 \). Calcule \( f(0) \), \( f(3) \), et \( f(-1) \).
 📌 **Exercice 3** :  
 On connaît l'expression de la fonction affine \( f(x) = 3x + 2 \). Quel est le point d'intersection de cette droite avec l'axe des ordonnées ?
 
----
+
 
 ## 🎯 Conclusion
 

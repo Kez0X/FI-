@@ -19,7 +19,7 @@ $$
 - **Hypoténuse (c)** : C'est le côté le plus long du triangle, en face de l'angle droit.
 - **Cathètes (a et b)** : Ce sont les deux autres côtés du triangle, qui forment l'angle droit.
 
----
+
 
 ## Illustration du théorème 🖼️
 
@@ -63,7 +63,7 @@ c = \sqrt{100} = 10 \, \text{cm}
 $$
 Donc, l'hypoténuse mesure **10 cm**. 📏
 
----
+
 
 ## Exemple 2 : Calcul d'une cathète
 
@@ -111,7 +111,7 @@ b = \sqrt{144} = 12 \, \text{cm}
 $$
 Donc, la cathète $\( b \)$ mesure **12 cm**. ✂️
 
----
+
 
 ## Applications pratiques du théorème de Pythagore 🛠️
 
@@ -164,7 +164,7 @@ c = \sqrt{100} = 10 \, \text{m}
 $$
 La distance directe entre les deux points est donc **10 mètres**. 📏
 
----
+
 
 ## Exercices pour s'entraîner ✍️
 
@@ -185,7 +185,7 @@ Voici quelques exercices pour t'aider à bien maîtriser le théorème de Pythag
 ### Exercice 4 : Applications pratiques
 4. Une échelle de 10 mètres est appuyée contre un mur. Si le bas de l'échelle est à 6 mètres du mur, quelle est la hauteur à laquelle l'échelle touche le mur ?
 
----
+
 
 ## Conclusion 🎉
 

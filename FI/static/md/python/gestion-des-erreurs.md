@@ -4,7 +4,7 @@ Lorsqu'on écrit un programme, il peut y avoir des erreurs à cause de différen
 
 Python fournit un mécanisme appelé **gestion des exceptions** qui permet d'intercepter ces erreurs, de les traiter et de maintenir l'exécution de ton programme.
 
----
+
 
 ## 1. Les Exceptions en Python ⚡
 
@@ -18,7 +18,7 @@ Les erreurs peuvent être de différents types, comme :
 
 Les exceptions sont utilisées pour signaler qu'une condition inhabituelle est survenue, et que des actions doivent être entreprises pour y remédier.
 
----
+
 
 ## 2. Le bloc `try`/`except` 🛠️
 
@@ -52,7 +52,7 @@ Erreur : Division par zéro !
 
 Ici, la tentative de division par zéro entraîne une exception de type `ZeroDivisionError`, et le programme passe à l'instruction dans le bloc `except`.
 
----
+
 
 ## 3. Gérer plusieurs types d'exceptions 🧑‍💻
 
@@ -77,7 +77,7 @@ Erreur : Veuillez entrer un nombre valide.
 
 Dans cet exemple, si l'utilisateur entre une valeur non numérique, l'exception `ValueError` sera déclenchée, et si l'utilisateur entre `0`, une exception `ZeroDivisionError` sera levée.
 
----
+
 
 ## 4. Le bloc `else` 📌
 
@@ -112,7 +112,7 @@ La division a réussi.
 
 Dans cet exemple, le code dans `else` est exécuté uniquement si aucune exception ne se produit, ce qui est le cas ici.
 
----
+
 
 ## 5. Le bloc `finally` 🔄
 
@@ -151,7 +151,7 @@ Fermeture du fichier.
 
 Dans cet exemple, même si le fichier n'est pas trouvé et qu'une exception est levée, le bloc `finally` est exécuté, ce qui permet de fermer le fichier (si ouvert) et de réaliser un nettoyage.
 
----
+
 
 ## 6. Lever des exceptions manuellement avec `raise` ⛔
 
@@ -184,7 +184,7 @@ Erreur : La valeur doit être positive.
 
 Ici, la fonction `verifier_positif` lève une exception `ValueError` si l'argument est négatif, et l'exception est capturée et affichée dans le bloc `except`.
 
----
+
 
 ## 7. Conclusion 🏁
 

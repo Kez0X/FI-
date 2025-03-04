@@ -52,7 +52,7 @@ mon_tuple = (1, (2, 3), 4)
 print(mon_tuple[1])  # (2, 3)
 ```
 
----
+
 
 ### 3. **Création de Tuples** 🛠️
 
@@ -83,7 +83,7 @@ Exemple :
 mon_tuple = (1, 2, 3, "a", "b", 3.14)
 ```
 
----
+
 
 ### 4. **Accéder aux Éléments d'un Tuple** 🖱️
 
@@ -104,7 +104,7 @@ print(mon_tuple[-1])  # 40 (dernier élément)
 print(mon_tuple[-2])  # 30 (avant-dernier élément)
 ```
 
----
+
 
 ### 5. **Opérations sur les Tuples** 🔧
 
@@ -168,7 +168,7 @@ mon_tuple = (10, 20, 20, 30, 40)
 print(mon_tuple.count(20))  # 2
 ```
 
----
+
 
 ### 6. **Pourquoi Utiliser des Tuples ?** 🤔
 
@@ -189,7 +189,7 @@ dictionnaire = { (1, 2): "a", (3, 4): "b" }
 print(dictionnaire[(1, 2)])  # "a"
 ```
 
----
+
 
 ### 7. **Conclusion** 🏁
 

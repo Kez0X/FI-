@@ -4,7 +4,6 @@ Une **fonction** est un bloc de code qui peut être réutilisé plusieurs fois d
 
 Les fonctions sont des outils puissants pour rendre ton code modulaire et éviter de répéter le même code à plusieurs endroits.
 
----
 
 ## 1. Définir une fonction en Python 📝
 
@@ -40,7 +39,7 @@ Bonjour tout le monde !
 
 Dans cet exemple, la fonction `dire_bonjour` ne prend aucun paramètre et affiche simplement un message.
 
----
+
 
 ## 2. Les paramètres de fonction 🎯
 
@@ -82,7 +81,7 @@ Résultat :
 
 Dans cet exemple, la fonction `addition` prend deux paramètres (`a` et `b`), et retourne leur somme.
 
----
+
 
 ## 3. Valeurs de retour (`return`) 🔙
 
@@ -124,7 +123,7 @@ Hello, world!
 None
 ```
 
----
+
 
 ## 4. Les paramètres par défaut 🛠️
 
@@ -155,7 +154,7 @@ Bonjour, Inconnu !
 
 Ici, si aucun argument n'est passé pour `nom`, la valeur par défaut "Inconnu" sera utilisée.
 
----
+
 
 ## 5. Les arguments arbitraires (`*args` et `**kwargs`) 🎭
 
@@ -211,7 +210,7 @@ profession: Ingénieur
 
 Ici, `**kwargs` permet de passer des arguments avec des noms différents à chaque appel, et la fonction les affiche.
 
----
+
 
 ## 6. Fonctions lambda (fonctions anonymes) 🦸‍♂️
 
@@ -237,7 +236,7 @@ Résultat :
 
 Les fonctions lambda sont particulièrement utiles lorsque tu veux une fonction simple à utiliser dans une seule ligne, souvent avec des fonctions comme `map()`, `filter()`, ou `sorted()`.
 
----
+
 
 ## 7. Les fonctions récursives 🔄
 
@@ -262,7 +261,7 @@ Résultat :
 
 Ici, la fonction `factorielle` s'appelle elle-même jusqu'à ce que `n` soit égal à 0, moment où elle retourne 1.
 
----
+
 
 ## 8. Conclusion 🚀
 

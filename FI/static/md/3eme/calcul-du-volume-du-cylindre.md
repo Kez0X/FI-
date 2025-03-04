@@ -9,7 +9,7 @@ Un **cylindre** est un solide géométrique ayant :
 
 Le **volume d'un cylindre** correspond à **l'espace qu'il occupe**. Il est exprimé en unités cubiques : **cm³, m³, L…**  
 
----
+
 
 ## 📏 Formule du Volume du Cylindre  
 
@@ -24,7 +24,7 @@ où :
 
 💡 **Remarque** : Le volume d'un cylindre est équivalent à **l'aire de sa base multipliée par sa hauteur**.  
 
----
+
 
 ## ✍️ Exemples de Calcul  
 
@@ -44,7 +44,7 @@ $$ V_{\text{cylindre}} \approx 250 \times 3.14 = 785 \, \text{cm}^3 $$
 
 🔹 **Réponse** : Le volume du cylindre est **785 cm³**  
 
----
+
 
 ### 📌 Exemple 2 : Cylindre de rayon 7 cm et hauteur 12 cm  
 
@@ -60,7 +60,7 @@ $$ V_{\text{cylindre}} \approx 588 \times 3.14 = 1847.32 \, \text{cm}^3 $$
 
 🔹 **Réponse** : Le volume du cylindre est **1847.32 cm³**  
 
----
+
 
 ## 📝 Exercices  
 
@@ -70,7 +70,7 @@ $$ V_{\text{cylindre}} \approx 588 \times 3.14 = 1847.32 \, \text{cm}^3 $$
 
 📌 **Exercice 3** : Un cylindre a un volume de **942 cm³** et un rayon de **5 cm**. Trouver sa hauteur \( h \).  
 
----
+
 
 ## 🎯 Applications du Volume du Cylindre  
 
@@ -81,7 +81,7 @@ Le calcul du volume du cylindre est utilisé dans de nombreux domaines :
 🔹 **Science et ingénierie** ⚙️ : Calcul du volume de substances contenues dans des tubes.  
 🔹 **Cuisine** 🍽️ : Volume des verres, tasses, et boîtes cylindriques.  
 
----
+
 
 ## 🎉 Conclusion  
 

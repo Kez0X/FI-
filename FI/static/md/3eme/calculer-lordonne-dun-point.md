@@ -4,7 +4,7 @@
 
 Lorsque l'on travaille avec une fonction affine, on peut être amené à **calculer l'ordonnée** \( f(x) \) d'un point en fonction de sa **valeur d'abscisse** \( x \). Cela signifie qu'on cherche la valeur de \( f(x) \) pour un \( x \) donné, en utilisant l'expression de la fonction affine.
 
----
+
 
 ## 1️⃣ 📐 Rappel sur la fonction affine
 
@@ -18,7 +18,7 @@ $$ f(x) = ax + b $$
 ### 📌 Définition de l'ordonnée :
 L'**ordonnée** \( f(x) \) est simplement la valeur de la fonction pour une valeur donnée de \( x \). Pour calculer l'ordonnée \( f(x) \) à un point, on remplace \( x \) par la valeur souhaitée dans l'expression de la fonction affine.
 
----
+
 
 ## 2️⃣ 🎲 Calculer l'ordonnée d'un point
 
@@ -40,7 +40,7 @@ $$ f(4) = 3 \times 4 + 2 = 12 + 2 = 14 $$
 
 Donc, l'ordonnée du point de coordonnée \( (4, f(4)) \) est \( 14 \), c'est-à-dire le point \( (4, 14) \).
 
----
+
 
 ## 3️⃣ 📏 Exemple détaillé
 
@@ -60,7 +60,7 @@ $$ f(3) = -6 + 5 = -1 $$
 
 L'ordonnée du point d'abscisse \( 3 \) est donc \( -1 \). Le point correspondant est \( (3, -1) \).
 
----
+
 
 ## 4️⃣ 🖋 Résumé des étapes pour calculer l'ordonnée
 
@@ -71,7 +71,7 @@ Voici les étapes à suivre pour calculer l'ordonnée d'un point donné sur une 
 3. **Effectue les calculs** pour obtenir la valeur de \( f(x_0) \).
 4. **Interprète le résultat** : \( f(x_0) \) est l'ordonnée du point \( (x_0, f(x_0)) \).
 
----
+
 
 ## 5️⃣ 📝 Exercices
 
@@ -84,7 +84,7 @@ Soit la fonction affine \( f(x) = -x + 4 \). Calcule l'ordonnée pour \( x = -3 
 ### 📌 Exercice 3 :
 La fonction affine est \( f(x) = 2x + 6 \). Quel est l'ordonnée du point \( (x = 0) \) ?
 
----
+
 
 ## 🎯 Conclusion
 

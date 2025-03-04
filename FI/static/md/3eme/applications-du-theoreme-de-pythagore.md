@@ -19,7 +19,7 @@ où :
 - $$\( a \) et \( b \)$$ sont les cathètes (les deux côtés du triangle qui forment l'angle droit),
 - $$\( c \)$$ est l'hypoténuse (le côté le plus long, en face de l'angle droit).
 
----
+
 
 ## Applications Pratiques du Théorème de Pythagore 🛠️
 
@@ -70,7 +70,7 @@ c = \sqrt{100} = 10 \, \text{m}
 $$
 Donc, la distance directe entre les deux points est de **10 mètres**. 📏
 
----
+
 
 ### 2. Vérifier si un Triangle est Rectangle 🔺
 
@@ -109,7 +109,7 @@ $$
 $$
 Comme l'égalité est vérifiée, ce triangle **est bien un triangle rectangle** ! 🎉
 
----
+
 
 ### 3. Calculer la Hauteur d'un Objet en Utilisant l'Echelle 📏
 
@@ -161,7 +161,7 @@ b = \sqrt{64} = 8 \, \text{m}
 $$
 Donc, l'échelle touche le mur à **8 mètres de hauteur**. 🔝
 
----
+
 
 ### 4. Calculer la Diagonale d’un Carré 🟧
 
@@ -207,7 +207,7 @@ d = \sqrt{50} \approx 7,07 \, \text{cm}
 $$
 Donc, la diagonale du carré mesure environ **7,07 cm**. 📏
 
----
+
 
 ## Exercices pour S’entraîner ✍️
 
@@ -226,7 +226,7 @@ Donc, la diagonale du carré mesure environ **7,07 cm**. 📏
 ### Exercice 4 : Diagonale d’un rectangle
 4. Un rectangle a une longueur de 6 cm et une largeur de 8 cm. Quelle est la longueur de la diagonale du rectangle ?
 
----
+
 
 ## Conclusion 🎉
 

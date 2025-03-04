@@ -21,7 +21,7 @@ Où :
 - $$\( a_1 \), \( b_1 \), \( c_1 \)$$ sont les côtés du premier triangle,
 - $$\( a_2 \), \( b_2 \), \( c_2 \)$$ sont les côtés du deuxième triangle.
 
----
+
 
 ## Critères de Similitude des Triangles 📏
 
@@ -55,7 +55,7 @@ Soit deux triangles ABC et A'B'C' :
 
 Alors, les triangles ABC et A'B'C' sont similaires.
 
----
+
 
 ## Exemples de Similitude des Triangles 📚
 
@@ -88,7 +88,7 @@ Si dans deux triangles ABC et A'B'C', on a :
 
 Alors les triangles ABC et A'B'C' sont **similaires** par le critère SSS, car tous les côtés sont proportionnels.
 
----
+
 
 ## Applications des Triangles Similaires 🛠️
 
@@ -106,7 +106,7 @@ Supposons que tu veuilles mesurer la distance entre deux points qui ne sont pas 
 
 Dans le domaine de l'architecture et de la construction, les triangles similaires sont utilisés pour créer des modèles réduits, vérifier les dimensions d'un plan ou même dans les calculs de proportions pour des structures.
 
----
+
 
 ## Exercices pour S'entraîner ✍️
 
@@ -137,7 +137,7 @@ Dans le domaine de l'architecture et de la construction, les triangles similaire
 ### Exercice 4 : Application pratique
 4. Un arbre de 10 mètres de haut projette une ombre de 4 mètres. Un poteau de 2 mètres de haut projette une ombre de 80 cm. Quelle est la hauteur de l'arbre, sachant que les triangles formés par les ombres et les objets sont similaires ?
 
----
+
 
 ## Conclusion 🎉
 

@@ -6,7 +6,7 @@ Les **statistiques** sont un domaine des mathématiques qui s'intéresse à la c
 
 Dans cette leçon, nous allons revoir les concepts essentiels des statistiques, notamment la **moyenne**, l'**écart-type**, la **médiane**, la **variance**, et les **représentations graphiques** des données.
 
----
+
 
 ## 1️⃣ 📊 Les Données Statistiques
 
@@ -22,7 +22,7 @@ Les données peuvent aussi être organisées sous forme de :
 - **Tableaux de fréquences** : Pour résumer les données sous forme de classes et de fréquences.
 - **Diagrammes** : Comme les diagrammes en bâtons, les histogrammes, ou les diagrammes circulaires.
 
----
+
 
 ## 2️⃣ 🧮 La Moyenne
 
@@ -47,7 +47,7 @@ $$ \bar{x} = \frac{12 + 15 + 17 + 10 + 14}{5} = \frac{68}{5} = 13,6 $$
 
 Donc, la moyenne des notes est **13,6**.
 
----
+
 
 ## 3️⃣ 📏 L'Écart-Type
 
@@ -92,7 +92,7 @@ Calculons l'écart-type :
 
 Donc, l'écart-type des notes est environ **2,42**.
 
----
+
 
 ## 4️⃣ 📊 La Médiane
 
@@ -110,7 +110,7 @@ Prenons les données suivantes : 12, 15, 17, 10, 14. Après les avoir triées : 
 
 La médiane est la valeur du milieu, ici **14**.
 
----
+
 
 ## 5️⃣ 📐 La Variance
 
@@ -130,7 +130,7 @@ $$ \sigma^2 = \frac{2,56 + 1,96 + 11,56 + 12,96 + 0,16}{5} = 5,84 $$
 
 La variance est donc **5,84**.
 
----
+
 
 ## 6️⃣ 📝 Exercices
 
@@ -146,7 +146,7 @@ Les âges des participants à un concours sont les suivants : 22, 26, 20, 30, 25
 ### 📌 Exercice 4 : Variance
 Les distances parcourues par des voitures lors d'un test sont : 120, 150, 130, 160, 140. Calcule la variance des distances.
 
----
+
 
 ## 🎯 Conclusion
 

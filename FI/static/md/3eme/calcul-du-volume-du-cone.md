@@ -9,7 +9,7 @@ Un **cône** est un solide géométrique qui possède :
 
 Le volume d’un cône correspond à **l’espace qu’il occupe**. Il se mesure en unités cubiques : **cm³, m³, L...**  
 
----
+
 
 ## 📏 Formule du Volume du Cône  
 
@@ -24,7 +24,7 @@ où :
 
 💡 **Remarque** : Le volume du cône est **1/3 du volume d’un cylindre** de même base et hauteur !  
 
----
+
 
 ## ✍️ Exemples de Calcul  
 
@@ -44,7 +44,7 @@ $$ V_{\text{cône}} \approx 48 \times 3.14 = 150.72 \, \text{cm}^3 $$
 
 🔹 **Réponse** : Le volume du cône est **150.72 cm³**  
 
----
+
 
 ### 📌 Exemple 2 : Cône de rayon 5 cm et hauteur 12 cm  
 
@@ -58,7 +58,7 @@ $$ V_{\text{cône}} \approx 100 \times 3.14 = 314 \, \text{cm}^3 $$
 
 🔹 **Réponse** : Le volume du cône est **314 cm³**  
 
----
+
 
 ## 📝 Exercices  
 
@@ -68,7 +68,7 @@ $$ V_{\text{cône}} \approx 100 \times 3.14 = 314 \, \text{cm}^3 $$
 
 📌 **Exercice 3** : Un cône a un rayon de **8 cm** et un volume de **268 cm³**. Trouver sa hauteur \( h \).  
 
----
+
 
 ## 🎯 Applications du Volume du Cône  
 
@@ -79,7 +79,7 @@ Le calcul du volume du cône est utilisé dans de nombreux domaines :
 🔹 **Sciences et ingénierie** ⚙️ : Déterminer des volumes en physique et en chimie.  
 🔹 **Astronomie** 🔭 : Calculer des volumes de cratères volcaniques ou d’objets célestes en forme conique.  
 
----
+
 
 ## 🎉 Conclusion  
 

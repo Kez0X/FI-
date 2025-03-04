@@ -5,7 +5,7 @@
 Les **probabilités conditionnelles** permettent de calculer la probabilité qu'un événement se produise, en sachant qu'un autre événement est déjà arrivé.  
 Cela permet d'affiner les calculs de probabilité en prenant en compte des informations supplémentaires.
 
----
+
 
 ## 1️⃣ 📏 Définition de la Probabilité Conditionnelle
 
@@ -20,7 +20,7 @@ $$ P(A | B) = \frac{P(A \cap B)}{P(B)} $$
 
 🔹 **Remarque** : La probabilité conditionnelle n'a de sens que si \( P(B) \neq 0 \), car la division par zéro est impossible.  
 
----
+
 
 ## 2️⃣ 🎲 Exemple de Probabilité Conditionnelle
 
@@ -46,7 +46,7 @@ $$ P(A | B) = \frac{\frac{1}{52}}{\frac{13}{52}} = \frac{1}{13} $$
 
 🔹 **Réponse** : La probabilité est **\( \frac{1}{13} \)**.
 
----
+
 
 ## 3️⃣ 📏 Interprétation et Utilisation
 
@@ -55,7 +55,7 @@ Les **probabilités conditionnelles** sont souvent utilisées dans des situation
 ✔ **Médecine** 🏥 : Probabilité d'une maladie **sachant** un résultat de test positif.  
 ✔ **Finance** 💰 : Probabilité de gain sur un investissement **sachant** que le marché a monté aujourd'hui.  
 
----
+
 
 ## 4️⃣ 📉 Règle de Bayes
 
@@ -74,7 +74,7 @@ De plus, **5% des personnes en bonne santé** peuvent également ressentir une a
 Si un patient se sent mieux après le traitement, quelle est la probabilité qu'il ait réellement la maladie A ?  
 En appliquant la règle de Bayes, vous pourrez calculer la probabilité inverse.
 
----
+
 
 ## 📝 Exercices
 
@@ -87,7 +87,7 @@ Une urne contient **5 billes rouges**, **3 billes bleues** et **2 billes vertes*
 📌 **Exercice 3** :  
 Lors d'un tirage au sort, 80% des personnes présentes sont des femmes et 20% des hommes. Parmi les femmes, 60% ont un véhicule personnel, tandis que parmi les hommes, seulement 40% en ont un. Quelle est la probabilité qu'une personne choisie au hasard avec un véhicule personnel soit une femme ? Utilisez la règle de Bayes.
 
----
+
 
 ## 🎯 Applications des Probabilités Conditionnelles
 
@@ -96,7 +96,7 @@ Lors d'un tirage au sort, 80% des personnes présentes sont des femmes et 20% de
 ✔ **Criminologie** 🔍 : Estimation de la probabilité qu'un suspect soit coupable, sachant certains indices.  
 ✔ **Machine Learning** 🤖 : Modélisation des probabilités conditionnelles pour des systèmes de prédiction.  
 
----
+
 
 ## 🎉 Conclusion
 

@@ -14,7 +14,7 @@ Où :
 - \( a \) est le **coefficient directeur**, qui représente la pente de la droite.
 - \( b \) est l'**ordonnée à l'origine**, qui est le point où la droite coupe l'axe des ordonnées (l'axe \( y \)).
 
----
+
 
 ## 1️⃣ 🔍 Coefficient directeur \( a \) (ou pente)
 
@@ -28,7 +28,7 @@ Le **coefficient directeur** \( a \) représente l'inclinaison de la droite. Il 
 
 Soit la fonction affine \( f(x) = 3x + 2 \). Le coefficient directeur est \( a = 3 \), donc la fonction est croissante et la droite a une pente de 3.
 
----
+
 
 ## 2️⃣ 📍 Ordonnée à l'origine \( b \)
 
@@ -38,7 +38,7 @@ L'**ordonnée à l'origine** \( b \) est la valeur de \( y \) lorsque \( x = 0 \
 
 Dans la fonction affine \( f(x) = 3x + 2 \), l'ordonnée à l'origine est \( b = 2 \). Cela signifie que lorsque \( x = 0 \), \( f(0) = 2 \), donc la droite coupe l'axe des ordonnées en \( (0, 2) \).
 
----
+
 
 ## 3️⃣ 📈 Représentation graphique d'une fonction affine
 
@@ -54,7 +54,7 @@ La représentation graphique d'une fonction affine est une droite, et l'équatio
 
 Pour la fonction \( f(x) = 2x - 1 \), l'ordonnée à l'origine est \( -1 \), donc le point \( (0, -1) \) est sur la droite. Ensuite, avec une pente de 2, pour chaque unité que \( x \) augmente, \( y \) augmente de 2.
 
----
+
 
 ## 4️⃣ 🧮 Calcul de l'image d'un point
 
@@ -68,7 +68,7 @@ $$ f(4) = 2(4) - 3 = 8 - 3 = 5 $$
 
 Donc, l'image de \( x = 4 \) est \( f(4) = 5 \).
 
----
+
 
 ## 5️⃣ 🔄 Résolution d'équations affines
 
@@ -88,7 +88,7 @@ $$ 3x + 2 = 11 $$
 
 Donc, la solution de l'équation \( f(x) = 11 \) est \( x = 3 \).
 
----
+
 
 ## 6️⃣ 📚 Exercices
 
@@ -113,7 +113,7 @@ Comparez les deux fonctions :
 1. Quelle est la pente de chaque fonction ?
 2. Où les deux droites se croisent-elles ?
 
----
+
 
 ## 🎯 Conclusion
 

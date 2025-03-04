@@ -2,7 +2,7 @@
 
 La gestion de projet est l'art de planifier, organiser, exécuter, et contrôler un projet pour atteindre des objectifs spécifiques dans un cadre de temps, de coût et de qualité définis. Dans ce cours, nous explorerons les principales notions, techniques, outils et méthodologies utilisées pour gérer un projet avec succès, en prenant en compte les différentes phases du projet.
 
----
+
 
 ## **1. Introduction à la Gestion de Projets** 🌍
 
@@ -15,7 +15,7 @@ La gestion de projet est une discipline qui repose sur l’application de connai
 - **Réduction des risques** : Anticiper et gérer les risques tout au long du projet.
 - **Communication efficace** : Assure une bonne circulation de l’information entre toutes les parties prenantes.
 
----
+
 
 ## **2. Les Phases de la Gestion de Projet** 📅
 
@@ -65,7 +65,7 @@ Une fois que toutes les tâches ont été réalisées, le projet doit être clô
 - **Leçons apprises** : Créer un retour d’expérience pour éviter les erreurs futures et améliorer les processus.
 - **Clôture administrative** : Vérification de tous les documents et archives nécessaires, désengagement des ressources.
 
----
+
 
 ## **3. Les Outils de Gestion de Projet** 🛠️
 
@@ -89,7 +89,7 @@ Les outils de gestion des risques comme **Risk Register** ou **Risk Matrix** per
 - **Slack** : Outil de communication d’équipe qui permet de discuter de manière instantanée et de partager des fichiers.
 - **Microsoft Teams** : Outil de communication qui intègre également la gestion de documents et les réunions en ligne.
 
----
+
 
 ## **4. Les Méthodologies de Gestion de Projet** 📚
 
@@ -110,7 +110,7 @@ La méthode en cascade est linéaire et suit une progression séquentielle. Chaq
 
 PRINCE2 (Projects IN Controlled Environments) est une méthode structurée qui se concentre sur la gestion des risques et la gouvernance du projet. Elle est souvent utilisée dans des projets complexes et de grande envergure.
 
----
+
 
 ## **5. Compétences du Chef de Projet** 🧑‍💻
 
@@ -122,7 +122,7 @@ Le chef de projet joue un rôle clé dans le succès du projet. Voici quelques c
 - **Gestion des risques** : Identifier, évaluer et gérer les risques pour éviter les obstacles majeurs.
 - **Négociation** : Trouver des compromis pour résoudre les conflits, gérer les attentes des parties prenantes, et négocier les ressources.
 
----
+
 
 ## **6. Conclusion** 🎯
 
@@ -130,7 +130,7 @@ La gestion de projet est une discipline essentielle dans de nombreux secteurs. E
 
 Que ce soit pour des projets personnels, professionnels ou complexes, comprendre et maîtriser les principes de la gestion de projet peut faire une grande différence dans l’atteinte des résultats souhaités. 🎉
 
----
+
 
 ### **Ressources complémentaires** 📚
 
@@ -139,6 +139,6 @@ Que ce soit pour des projets personnels, professionnels ou complexes, comprendre
   - [Coursera : Gestion de projet](https://www.coursera.org/courses?query=project%20management)
   - [Udemy : Formation Gestion de Projet](https://www.udemy.com/topic/project-management/)
 
----
+
 
 Avec ce cours, vous avez maintenant une bonne compréhension de la gestion de projets, ses phases, outils et méthodologies. Bon apprentissage et bonne gestion de vos projets futurs ! 😃

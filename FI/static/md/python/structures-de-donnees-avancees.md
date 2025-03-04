@@ -2,7 +2,7 @@
 
 Les **structures de données** sont des manières spécifiques d'organiser, de stocker et de gérer les données. Python propose plusieurs types de structures de données qui sont adaptées à différents besoins. Nous allons voir en détail les structures les plus courantes et leurs caractéristiques.
 
----
+
 
 ## 1. Les Listes 🍀
 
@@ -57,7 +57,7 @@ print(ma_liste)  # Affiche [1, 20, 4, 5, 6]
 print("Élément supprimé:", element_supprime)  # Affiche 2
 ```
 
----
+
 
 ## 2. Les Tuples 🔒
 
@@ -83,7 +83,7 @@ print(mon_tuple[1])  # Affiche 2
 
 Les tuples sont souvent utilisés lorsqu'on veut garantir que les données ne soient pas modifiées. Par exemple, tu pourrais utiliser un tuple pour stocker les coordonnées d'un point géographique.
 
----
+
 
 ## 3. Les Dictionnaires 📚
 
@@ -132,7 +132,7 @@ del mon_dict["ville"]
 print(mon_dict)  # Affiche {'nom': 'Alice', 'age': 26, 'profession': 'Ingénieur'}
 ```
 
----
+
 
 ## 4. Les Ensembles (Sets) 🔄
 
@@ -174,7 +174,7 @@ print(ensemble1 & ensemble2)  # Affiche {3}
 print(ensemble1 - ensemble2)  # Affiche {1, 2}
 ```
 
----
+
 
 ## 5. Les Files et Piles (Queues and Stacks) 🌀
 
@@ -206,7 +206,7 @@ file.append(4)  # Ajouter à la fin
 print(file.popleft())  # Retirer le premier élément (affiche 1)
 ```
 
----
+
 
 ## Conclusion 🎯
 

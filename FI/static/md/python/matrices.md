@@ -2,7 +2,7 @@
 
 Les **matrices** sont des tableaux à deux dimensions (ou plus, mais nous nous concentrerons ici sur les matrices bidimensionnelles), où chaque élément est placé à l’intersection de lignes et de colonnes. Elles sont largement utilisées en algèbre linéaire, notamment pour la représentation de systèmes d’équations linéaires, ainsi que dans les calculs scientifiques et les algorithmes de machine learning.
 
----
+
 
 ## 1. Qu'est-ce qu'une matrice ? 🧮
 
@@ -23,7 +23,7 @@ Les matrices sont souvent notées de la manière suivante :
 - Une matrice \( A \) de dimension \( m \times n \) est une matrice avec **m** lignes et **n** colonnes.
 - Les éléments de la matrice sont généralement notés \( a_{ij} \), où \( i \) est l'indice de la ligne et \( j \) est l'indice de la colonne.
 
----
+
 
 ## 2. Comment créer une matrice en Python ? 📋
 
@@ -63,7 +63,7 @@ matrice[0][1] = 20
 print(matrice)  # Affiche [[1, 20, 3], [4, 5, 6]]
 ```
 
----
+
 
 ## 3. Utilisation de NumPy pour les matrices 🔢
 
@@ -91,7 +91,7 @@ print(matrice_np)
 
 Cela crée une matrice identique à celle qu’on a créée avec des listes imbriquées, mais l'utilisation de **NumPy** permet de réaliser des opérations mathématiques plus facilement et efficacement.
 
----
+
 
 ## 4. Opérations sur les matrices 🔄
 
@@ -164,7 +164,7 @@ print(matrice_transposee)  # Affiche [[1 4]
                            #          [3 6]]
 ```
 
----
+
 
 ## 5. Matrices spéciales 🛠️
 
@@ -198,7 +198,7 @@ print(matrice_identite)  # Affiche [[1. 0. 0.]
                           #          [0. 0. 1.]]
 ```
 
----
+
 
 ## 6. Conclusion 🎯
 

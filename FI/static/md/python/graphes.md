@@ -27,7 +27,6 @@ Dans cet exemple :
 - Les sommets sont **A**, **B**, **C**.
 - Les arêtes sont les liens entre les sommets : **(A, B)** et **(A, C)**.
 
----
 
 ## 2. Types de graphes 🛠️
 
@@ -75,7 +74,6 @@ Exemple :
 
 Dans cet exemple, les arêtes ont des poids respectifs 3, 2, 1 et 5.
 
----
 
 ## 3. Représentation des graphes en Python 🔢
 
@@ -140,7 +138,6 @@ Une **liste d'arêtes** est une liste simple où chaque élément est une paire 
 arêtes = [("A", "B"), ("A", "C"), ("B", "C")]
 ```
 
----
 
 ## 4. Traversée des graphes 🧭
 
@@ -203,7 +200,6 @@ graphe = {
 dfs(graphe, "A")  # Affiche A B C
 ```
 
----
 
 ## 5. Applications des graphes 🧩
 
@@ -214,7 +210,6 @@ Les graphes sont utilisés dans de nombreux domaines, notamment :
 - **Systèmes de recommandation** : Graphes pour modéliser les préférences des utilisateurs.
 - **Planification d’itinéraires** : Cartes routières ou réseaux de transport.
 
----
 
 ## 6. Conclusion 🎯
 
@@ -230,7 +225,6 @@ es comme **BFS** et **DFS** sont fondamentaux pour résoudre de nombreux problè
 
 Les graphes sont omniprésents dans le monde moderne et tu les retrouveras dans beaucoup d'applications. 😊
 
----
 
 # Représentation des Graphes
 
