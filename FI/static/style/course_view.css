@@ -5,6 +5,7 @@ html, body {
     overflow-x: hidden; /* Empêcher le défilement horizontal */
     width: 100%;
     box-sizing: border-box; /* Assure que le padding et la bordure ne dépassent pas la largeur de l'écran */
+    scroll-behavior: smooth;
 }
 
 body {
