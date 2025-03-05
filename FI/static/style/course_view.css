@@ -125,6 +125,46 @@ h1 {
     background-color: #0056b3;
 }
 
+/* Empêcher le débordement des formules et ajuster leur taille */
+.course-content {
+    position: relative;
+    max-width: 100%; /* Assurez-vous que le contenu ne dépasse pas la largeur */
+    overflow: hidden; /* Empêche tout débordement de contenu */
+    word-wrap: break-word; /* Permet de couper les mots trop longs (formules) */
+    box-sizing: border-box; /* Assure que le padding et les bordures ne dépassent pas la largeur */
+}
+
+/* Pour les formules mathématiques ou éléments spécifiques */
+.math-formula {
+    display: block; /* Assurez-vous que la formule se comporte comme un bloc */
+    max-width: 100%; /* Limite la largeur de la formule */
+    word-wrap: break-word; /* Coupe la formule si elle est trop longue */
+    overflow: hidden; /* Empêche les formules de déborder */
+    text-overflow: ellipsis; /* Coupe proprement les formules trop larges */
+    white-space: normal; /* Autorise le retour à la ligne si nécessaire */
+}
+
+/* Si les formules sont dans un conteneur spécifique */
+.math-container {
+    overflow-x: auto; /* Permet un défilement horizontal si la formule est trop longue */
+    max-width: 100%; /* Assure que le conteneur ne dépasse pas */
+    padding: 5px; /* Un peu de padding pour l'esthétique */
+}
+
+/* Pour les petits écrans */
+@media (max-width: 768px) {
+    .course-content {
+        overflow-x: auto; /* Permet un défilement horizontal sur petits écrans si nécessaire */
+    }
+
+    .math-formula {
+        font-size: 1em; /* Assurez-vous que la taille de la formule s'ajuste correctement */
+        white-space: normal; /* Permet aux formules de se casser sur plusieurs lignes si nécessaire */
+        overflow: hidden; /* Toujours éviter le débordement horizontal */
+    }
+}
+
+
 /* Pour les écrans plus petits */
 @media (max-width: 768px) {
     .navigation-buttons button {
